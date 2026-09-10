@@ -24,15 +24,19 @@ class ReplyGenerator:
         retrieved_playbooks: List[Dict[str, Any]],
         requires_dm: bool = False
     ) -> str:
-        """
-        Generate grounded customer support reply strictly under 280 characters.
-        """
-        primary_pb = retrieved_playbooks[0] if retrieved_playbooks else None
+        # Select playbook aligned with the operational action
+        matched_pb = None
+        for pb in retrieved_playbooks:
+            if pb.get("resolution_type") == action:
+                matched_pb = pb
+                break
+        if not matched_pb and retrieved_playbooks:
+            matched_pb = retrieved_playbooks[0]
 
         if action == "ESCALATE":
-            reply = self._synthesize_escalate_reply(tweet_text, intent, primary_pb, requires_dm)
+            reply = self._synthesize_escalate_reply(tweet_text, intent, matched_pb, requires_dm)
         else:
-            reply = self._synthesize_autohandle_reply(tweet_text, intent, primary_pb)
+            reply = self._synthesize_autohandle_reply(tweet_text, intent, matched_pb)
 
         # Enforce Twitter 280-character limit guardrail
         if len(reply) > TWITTER_CHAR_LIMIT:

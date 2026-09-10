@@ -1,0 +1,116 @@
+{
+  "dataset": "Customer Support on Twitter (@SpotifyCares)",
+  "sample_count": 200,
+  "timestamp": "2026-09-10 14:39:21",
+  "cross_validation_out_of_fold": {
+    "n_splits": 5,
+    "mean_accuracy": 0.61,
+    "std_accuracy": 0.0339,
+    "mean_f1_macro": 0.5643,
+    "std_f1_macro": 0.0435
+  },
+  "models": {
+    "baseline_1_trivial": {
+      "agent_name": "Baseline 1 (Trivial Canned)",
+      "intent_metrics": {
+        "accuracy": 0.2,
+        "precision_macro": 0.0286,
+        "recall_macro": 0.1429,
+        "f1_macro": 0.0476
+      },
+      "escalation_metrics": {
+        "accuracy": 0.705,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 1.0
+      },
+      "reply_metrics": {
+        "bleu_2": 0.0194,
+        "rouge_l": 0.1274,
+        "length_compliance_pct": 100.0
+      },
+      "judge_scores": {
+        "relevance_1_to_5": 3.45,
+        "groundedness_1_to_5": 4.2,
+        "brand_voice_1_to_5": 5.0,
+        "escalation_correctness_1_to_5": 3.82,
+        "overall_mean_1_to_5": 4.12
+      },
+      "latency_ms": {
+        "mean": 0.0,
+        "p95": 0.01
+      },
+      "failure_count": 167
+    },
+    "baseline_2_simple": {
+      "agent_name": "Baseline 2 (Simple Naive Bayes)",
+      "intent_metrics": {
+        "accuracy": 0.985,
+        "precision_macro": 0.9888,
+        "recall_macro": 0.9829,
+        "f1_macro": 0.9854
+      },
+      "escalation_metrics": {
+        "accuracy": 0.75,
+        "precision": 1.0,
+        "recall": 0.1525,
+        "f1_score": 0.2647,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.8475
+      },
+      "reply_metrics": {
+        "bleu_2": 1.0,
+        "rouge_l": 1.0,
+        "length_compliance_pct": 100.0
+      },
+      "judge_scores": {
+        "relevance_1_to_5": 4.96,
+        "groundedness_1_to_5": 4.99,
+        "brand_voice_1_to_5": 4.84,
+        "escalation_correctness_1_to_5": 4.0,
+        "overall_mean_1_to_5": 4.7
+      },
+      "latency_ms": {
+        "mean": 1.36,
+        "p95": 1.63
+      },
+      "failure_count": 53
+    },
+    "proposed_agent": {
+      "agent_name": "Proposed AI Support Agent",
+      "intent_metrics": {
+        "accuracy": 1.0,
+        "precision_macro": 1.0,
+        "recall_macro": 1.0,
+        "f1_macro": 1.0
+      },
+      "escalation_metrics": {
+        "accuracy": 0.87,
+        "precision": 0.9231,
+        "recall": 0.6102,
+        "f1_score": 0.7347,
+        "false_positive_rate": 0.0213,
+        "false_negative_rate": 0.3898
+      },
+      "reply_metrics": {
+        "bleu_2": 0.0887,
+        "rouge_l": 0.2088,
+        "length_compliance_pct": 100.0
+      },
+      "judge_scores": {
+        "relevance_1_to_5": 5.0,
+        "groundedness_1_to_5": 5.0,
+        "brand_voice_1_to_5": 5.0,
+        "escalation_correctness_1_to_5": 4.5,
+        "overall_mean_1_to_5": 4.87
+      },
+      "latency_ms": {
+        "mean": 3.55,
+        "p95": 5.25
+      },
+      "failure_count": 26
+    }
+  }
+}

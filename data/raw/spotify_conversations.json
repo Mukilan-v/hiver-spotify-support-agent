@@ -1,0 +1,2872 @@
+[
+  {
+    "conversation_id": "f6a2043179e7224c579caa68f72c7159",
+    "summary": "The customer asks how should he import iTunes smart playlist songs to spotify and asks how can he cancel the subscription. The agent asks to follow steps in the link provided and also informs that the local files will not appear under Library and adds that the subscription can be cancelled at anytime.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares also, how do I import my iTunes smart playlist songs to Spotify?"
+      },
+      {
+        "role": "agent",
+        "content": "@141285 Hey there! You can try following the steps at https://t.co/jnWe28bxRW. Let us know how it goes. On the other hand, we're afraid that local files will not appear under Your Library (Songs, Artists, Albums)."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares please do. I've worked the past 10 years on creating those playlists in iTunes, and the whole purpose of migrating to Spotify is that it's social. So now I don't have any benefits of being a Spotify subscriber..."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares is there really no workaround for this? I wouldn't mind putting some time into making this work, but Spotify just has so little use for me if this can't be done..."
+      },
+      {
+        "role": "agent",
+        "content": "@141285 We're afraid this isn't possible, but we can see how that'd be handy. Your feedback has been noted. Don't worry, once you've imported your iTunes tracks, you can easily move them to playlists by following the steps at https://t.co/a38Mc2DlCx /WP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I think Im missing the point. That article doesn’t say anything about iTunes or how to move songs added through iTunes to playlists :-("
+      },
+      {
+        "role": "agent",
+        "content": "@141285 Sorry about the confusion. The steps you're looking for are on the first link we provided. Just head here: https://t.co/leBtTrQniD."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares yes I already did that before I asked my initial question (about importing smart playlists)."
+      },
+      {
+        "role": "agent",
+        "content": "@141285 We understand where you're coming from. Currently, it won't be possible to do this. Rest assured, we'll let our devs know this is something you'd like to see /DV"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares okay, thanks. How do I cancel my subscription? Is this possible each month, or is it per year?"
+      },
+      {
+        "role": "agent",
+        "content": "@141285 No problem. Canceling the subscription can be done anytime. Can you also let us know your account's username or email address? We'll see what we can suggest /DN"
+      }
+    ]
+  },
+  {
+    "conversation_id": "abe8394cdc05834bb62186ca96d0c19a",
+    "summary": "The customer is complaining that he can't listen to all songs in a playlist. The agent asked to dm username and email address.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888 why can't i listen to all songs, in a playlist folder, on mobile anymore?"
+      },
+      {
+        "role": "agent",
+        "content": "@378966 Hey there! Does logging out, restarting your device, and logging back in help? Let us know /TF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares No it doesn't unfortunately, happened sometime after a recent update on Android"
+      },
+      {
+        "role": "agent",
+        "content": "@378966 Got it. Best thing to try here is a reinstall. Just follow the steps at https://t.co/EqisDMwZAT."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Also didn't help :/"
+      },
+      {
+        "role": "agent",
+        "content": "@378966 We hear you. Does the issue happen on any other devices? Keep us posted /TF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares The desktop layout is different to the mobile one. Lots of people complaining online that the feature was removed"
+      },
+      {
+        "role": "agent",
+        "content": "@378966 No worries! Can you DM us your account's username and email address? We'll take a look backstage /TF https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "90bdfa5a14f467675bb5b954073dcd67",
+    "summary": "Customer enquires that after downloading the latest app the log in screen doesn't appeared. Agent asks to DM username and email address for troubleshooting the phone.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@117153 I've downloaded the latest app (deleted and reinstalled) and the log in screen does not even appear in the app once loaded"
+      },
+      {
+        "role": "agent",
+        "content": "@213284 Hey Jack! Can you let us know the exact device you're using as well as the operating system versions it's running? /JL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares iPhone 7 Plus, running 11.0.2. currently the log in screen just says \"Log In\" at the top, and the running intro video loop"
+      },
+      {
+        "role": "agent",
+        "content": "@213284 Could you send a screenshot of how exactly it appears from your end? /JL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares  https://t.co/hN0uZahKay"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It takes ~5 minutes between pressing “Log In” and getting to that screen. Then it holds there, with the video looping. Reinstalled twice"
+      },
+      {
+        "role": "agent",
+        "content": "@213284 Hmm. Could you try removing the app again, restarting your device, then reinstalling? Also, does this happen on other devices? /JL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I figured out a fix after this happening a few times: go back to main screen, press Log In again: correct screen loads"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Literally, it's go back a page, go forward again."
+      },
+      {
+        "role": "agent",
+        "content": "@213284 It's good to hear that you can log in now. Just to check, after logging out, does the same still happen when trying to log back in? /JL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Yes. I logged out &amp; shut down app. It took ten minutes to blank log in screen + additional blank screens for every time I hit \"Log In\"..."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares ...after that: I had to hit \"back\" button many times to get to original screen, pressed Log In, that worked. Log Out w/o App quit is normal"
+      },
+      {
+        "role": "agent",
+        "content": "@213284 Just to confirm, does this also happen on any other device you have? Trying a different network connection might also help /JL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I see no reason to un/reinstall the application on desktop or continue to test this on different networks. Problem began with new mobile app"
+      },
+      {
+        "role": "agent",
+        "content": "@213284 We understand. Let's continue troubleshooting on your phone. Can you DM us your account's username and email address? /JL https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "9937ec86978fa183df2a9129b2d57b52",
+    "summary": "The customer is complaining that it contains multiple songs on spotify. The agent responded that they were passing on all their feedback about that.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares This should just be one song. It contains multiple songs on spotify. https://t.co/jiYHnk02qr"
+      },
+      {
+        "role": "agent",
+        "content": "@270301 Hey Dietrich! Can you send us the URI or link of the similar tracks you're referring to? We'll have this checked for you /AL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Its the only version on spotify. The first 3 minutes is the song in the title. After that a very long pause and more songs."
+      },
+      {
+        "role": "agent",
+        "content": "@270301 Gotcha! We've reported it to our Content team, so they'll be able to fix it. Great detective work. https://t.co/LpsmyUtme0 /AL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Still not fixed!"
+      },
+      {
+        "role": "agent",
+        "content": "@270301 Hey there! We've given our content team a nudge about this. Hopefully we'll have a fix soon /AG"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Third time's a charm? STILL NOT FIXED. How about push instead of a nudge this time?"
+      },
+      {
+        "role": "agent",
+        "content": "@270301 Hi again! Not to worry, we'll give them a tap so this can get fixed soon /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Still not fixed... do you guys even have a content team? Or is it just one guy in a room without internet?"
+      },
+      {
+        "role": "agent",
+        "content": "@270301 We do, but we're sorry if it still hasn't been fixed. Rest assured that we're passing on all your feedback about this /AY"
+      }
+    ]
+  },
+  {
+    "conversation_id": "e37b8d01ec3a2b1e629f0a0fb424ff40",
+    "summary": "The customer says if he turn on voiceover and try activate a check box with vo plus space they don't activate. The agent asks customer's desktop's OS and spotify version and to DM his account's email address.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares This is *not* a voiceover problem but an *app* and #accessibility problem. Please forward this to your higher ups. Thanks."
+      },
+      {
+        "role": "agent",
+        "content": "@165997 Hi Sarah, help's here! Can you give us more info on this? Also, what're your desktop's OS and Spotify versions? /DV"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Desktop version is  1.0.64.399.g4637b02a  mac: \nProductName:Mac OS X\nProductVersion:10.13\nBuildVersion:17A365"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares If you turn on voiceover and try and activate a check box wiht vo plus space they don't activate."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Apple care will not help here, it is the code in the app that is broken."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I feel I should make that clear as many have ben told to contact apple about this. Thanks again."
+      },
+      {
+        "role": "agent",
+        "content": "@165997 Got it. Does logging out &gt; restarting your phone &gt; logging back in to your account make a difference? /DV"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares No, like I said I'm on a mac, not my phone. Mac os does not run on phones. I'm runnign this on a mac book pro"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares And I already did every trouble shooting step, it is the code int eh app, #accessibility #fail"
+      },
+      {
+        "role": "agent",
+        "content": "@165997 Alright. In that case, can you DM us your account's email address? We'll take a look backstage /DV https://t.co/ldFdZRiNAt"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Done, although I don't think that was needed. This is a #accessibility violation as  we are excluded from accessing that part of the app."
+      },
+      {
+        "role": "agent",
+        "content": "@165997 We understand how you feel. We assure you that we want to help. We've just replied to your DM. Let's carry on chatting there /DV"
+      }
+    ]
+  },
+  {
+    "conversation_id": "572edcdd82deb61e449870cdb22f27d1",
+    "summary": "Customer is complaining that spotify starts up on Windows 10 even though it is disabled from settings and task manager. Agent updated that to send DM their account's username or email address.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Spotify starts up on Windows 10 even though it is disabled from settings and task manager. There seems to be no definite fix. https://t.co/MA5fyomEpT"
+      },
+      {
+        "role": "agent",
+        "content": "@131457 Hmm, that doesn't sound right. What Spotify version are you using? We'll see what we can suggest /JE"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares 1.0.66.478.g1296534d (Windows Store version)"
+      },
+      {
+        "role": "agent",
+        "content": "@131457 Thanks. Best thing to try here is a reinstall. Just follow the steps at https://t.co/PDA2aKzC6Q."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares You guys need to update your windows 10 installing page according to creators update. It's not under system settings, it's under apps. https://t.co/dJSv7o3AuF"
+      },
+      {
+        "role": "agent",
+        "content": "@131457 We hear you. We’ll be sure to pass your feedback on to the right folks. Just to check, have you reinstalled the app successfully? Keep us posted /JE"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I have reinstalled but will keep you updated when I reboot my device. Thank you."
+      },
+      {
+        "role": "agent",
+        "content": "@131457 Sounds like a plan! Looking forward to hearing from you. We'll be right here /JE"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I guess this fixed my problem."
+      },
+      {
+        "role": "agent",
+        "content": "@131457 Awesome! Just give us a shout if the problem persists. We're... https://t.co/zOXI69QSqg /PL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Hey, there problem is still there. It stars up on boot-up automatically."
+      },
+      {
+        "role": "agent",
+        "content": "@131457 Can you DM us your account's username or email address? We'll see what we can suggest /PC https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "9b5cbf01b932b55acdbcc881f78f5a76",
+    "summary": "The customer is complaining that spotify keeps on turning on and off even reinstalling the app doesn't works at all. The agent asked to dm with account email address or username.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I just got a new samsung s7 and spotify keeps on randomly turning on and off for no reason. I have reinstalled, any other fixes?"
+      },
+      {
+        "role": "agent",
+        "content": "@534226 Hey, help's here! Can you let us know the Android version you're using? Just go to Settings &gt; About Device/Phone &gt; Software info /JS"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Android 7.0, is that what you mean?"
+      },
+      {
+        "role": "agent",
+        "content": "@534226 Yup, that's right. Could you try restarting the device? Does the issue persist? /JS"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I have restarted and the problem is still there."
+      },
+      {
+        "role": "agent",
+        "content": "@534226 By randomly turning on and off, do you mean the music just pauses or the app shuts down and restarts by itself? We'll be here waiting /LO"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares The music pauses. And sometimes I will go into the spotify app and a song will immediately start playing before I press play. I have had no problems with spotify until I got my new samsung s7 so wondering if it could be the operating system or some other setting?"
+      },
+      {
+        "role": "agent",
+        "content": "@534226 Hmm. Could you send us a DM with your account's email address or username? We'll take a look backstage /LO https://t.co/ldFdZRiNAt"
+      },
+      {
+        "role": "agent",
+        "content": "@534226 No worries! We don't think it's a waste of time as long as you've found the issue. If it still happens with a different pair of headphones, get back to us. We'll see what else we can suggest /QI"
+      }
+    ]
+  },
+  {
+    "conversation_id": "88bf07bf1c09b499543d42c453767b27",
+    "summary": "The customer is complaining that  he was facing some issues when he try to setting up my artist page through spotify. The agent asked the customer to dm contact email address for further assistance.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares There is a bug when i am setting up my artist page through spotify"
+      },
+      {
+        "role": "agent",
+        "content": "@175357 Hey, sorry to hear this! Can you let us know what's happening exactly? We'll see what we can suggest /GS"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Not able to upload songs to spotfy via artist webpage"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares When i go on to create an artist account, it makes me pick from a list of artists already on spotfiy and then verify that i am them but im not them i am trying to put my music onto spotify for other people to find"
+      },
+      {
+        "role": "agent",
+        "content": "@175357 Got it. Our friends in Artist Support are the right folks to help with this. You can get in touch with them here: https://t.co/p1wbtdELHu /MT"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares This is what i am getting when trying to talk to them https://t.co/UxxwmDxaK1"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Also the same thing that i get when i try to upload music"
+      },
+      {
+        "role": "agent",
+        "content": "@175357 Hmm. Could you DM us your contact email address? We’ll chase this up! /LS https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "411c2893806645aac807d93290274620",
+    "summary": "Customer is complaining that they do recall having a much better app before. Agent suggest him to send more info on this via DM.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I will try this... I do recall you guys having a much better app before.. I used to use it."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares"
+      },
+      {
+        "role": "agent",
+        "content": "@314912 You can us Spotify Connect to control your tunes across any available device. Find out more here: https://t.co/tKryrzYLtk /QI"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares guys come on.... i don't that that option on my app.... thats why i said it sucks lol..."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares pretty poor experience so far i must say."
+      },
+      {
+        "role": "agent",
+        "content": "@314912 We appreciate your thoughts. On the other hand, can you try reinstaliing the app? Just follow the steps here: https://t.co/cxGHt0bCR8 /PL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Yeah yeah but I have a Windows phone lol... This whole groove to spoitify thing really starting to piss me off...."
+      },
+      {
+        "role": "agent",
+        "content": "@314912 We understand. We've sent you more info on this via DM. Let's continue chatting there 🙂 /CH"
+      }
+    ]
+  },
+  {
+    "conversation_id": "123863f8533a5a538058707cdf1d8331",
+    "summary": "Customer is complaining that the app won't work he just trying to listen to one direction. Agent updated to DM his account's email address or username.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888 why won't your dumb app work im just trying to listen to one direction"
+      },
+      {
+        "role": "customer",
+        "content": "@115888 Why the fuck do I need premium to shuffle one direction https://t.co/hIxXIjG0qL"
+      },
+      {
+        "role": "customer",
+        "content": "@115888 Oh at long last https://t.co/p2kpJtKR0r"
+      },
+      {
+        "role": "agent",
+        "content": "@577621 Hey there! Just to confirm, are you now able to play One Direction tracks? /AR"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Nope, it let me listen to like two songs and then stopped. Every time I close the app and retry it just plays me an ad and then nothing"
+      },
+      {
+        "role": "agent",
+        "content": "@577621 Just to check, are you getting any specific error messages when the tracks you're playing stop? If so, a screenshot of it would help /AR"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares They stop and then when I press shuffle again this comes up https://t.co/kFgvOfD6rc"
+      },
+      {
+        "role": "agent",
+        "content": "@577621 Hmm. Can you DM us your account's email address or username? We'll take a look backstage /AR https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "dcf94df377048a59de2a32d9e7614d21",
+    "summary": "Customer is complaining that its spotify acting up he can't listen to more than one song without it pausing on its own its been going on for a month now. Agent updated that spotify version need to check it on their apps settings &ge about.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888 why is my Spotify acting up I️ can’t listen to more than one song without it pausing on its own it’s been going on for a month now"
+      },
+      {
+        "role": "agent",
+        "content": "@525730 Hey, that doesn't sound fun! What device, operating system, and Spotify version are you using? We'll see what we can suggest /MA"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It isn’t premium, and it’s on my mobile device"
+      },
+      {
+        "role": "agent",
+        "content": "@525730 1: Could you also let us know your device's make and model, operating system, and Spotify version? To check the latter, just head... /AU"
+      },
+      {
+        "role": "agent",
+        "content": "@525730 2: over to Your Library &gt; Settings &gt; About. While you're at it, could you also DM us your account's email address? /AU https://t.co/ldFdZRiNAt"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It’s on my iPhone 8"
+      },
+      {
+        "role": "agent",
+        "content": "@525730 1: Thanks. Can you also fire over the other details we've asked including your account's email? To check your iOS version, just head... /AU"
+      },
+      {
+        "role": "agent",
+        "content": "@525730 2: over to your phone's Settings &gt; General &gt; About. As for your Spotify version, you can check it on your app's Settings &gt; About /AU"
+      }
+    ]
+  },
+  {
+    "conversation_id": "0ff5a8836f35b9f5e8406ae1270e68cb",
+    "summary": "Customer complaining about web player ever work when he wanted it too. Agent asking that what  specific error message he is getting and what exactly happening.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Why doesn't @115888's web player ever work when I want it too"
+      },
+      {
+        "role": "agent",
+        "content": "@317564 Hey Kayla! Can you tell us more about what's happening exactly? We'll see what we can suggest /NS"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Everything else works, it's just that the music won't play."
+      },
+      {
+        "role": "agent",
+        "content": "@317564 Got it. Are you getting any specific error messages? A screenshot would come in handy /NS"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Nope, nothing. https://t.co/uDog1IhVeN"
+      },
+      {
+        "role": "agent",
+        "content": "@317564 We appreciate the heads-up. Just to check, what operating system do you have installed on your computer? /MT"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Of course! It's Chrome OS."
+      },
+      {
+        "role": "agent",
+        "content": "@317564 Got it. Could you try clearing your browser's cookies/cache? We'd also suggest using an incognito/private window /MT"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Just did both of those, and it still doesn't play. It worked fine yesterday."
+      },
+      {
+        "role": "agent",
+        "content": "@317564 Hmm, that's odd. Can you try restarting your router? We'd also recommend trying different WiFi connections /MT"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Restarted it twice already and still nothing. Usually that tends to work. I have no other WiFi connections to connect too."
+      },
+      {
+        "role": "agent",
+        "content": "@317564 Could you DM us your account's email address or username? We'll take a look backstage /MT https://t.co/ldFdZR1cbT"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Sent!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "62fb6f0405d832c6080c88e80cd8a436",
+    "summary": "Customer is complaining about the chrome cast which is being slow. Agent request to share the details about the device, operating system and spotify version and also ask to DM by sharing account's email address or username for further assistance.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Am I the only one having this issue with my @122986 #ChromeCast being really slow? Only happens with @115888."
+      },
+      {
+        "role": "agent",
+        "content": "@637745 Hey there! Can you let us know your device, operating system, and Spotify version? We'll check it out /RC"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Spotify app v. 8.4.26.770\nAndroid 7.1.1\nGoogle Chromecast Ultra, latest version."
+      },
+      {
+        "role": "agent",
+        "content": "@637745 Got it. Can you try to see if logging out &gt; restarting your devices &gt; logging back in to your account makes a difference? /DV"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Tried rebooting as well as logging out and back in, still no difference."
+      },
+      {
+        "role": "agent",
+        "content": "@637745 Best thing to try here is a reinstall. Just follow the steps at https://t.co/EqisDMwZAT /RH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I just tried, following the directions exactly. It made no difference, I still have a ~10 seconds delay. 😞"
+      },
+      {
+        "role": "agent",
+        "content": "@637745 Thanks for giving it a shot. Can you DM us your account's email address or username? We'll take a look backstage /RH https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "28ed33cd0c9318ac93accd386526336d",
+    "summary": "Customer complains about the song \"Hello\" on the seventeen album teen age which is not being played on the mobile phone. Agent asks the model, OS and Spotify version of mobile phone.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares the song “Hello” on the SEVENTEEN album Teen,Age isn’t available for play. Is there a specific reason why?"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I know the song is available in the US. Since other music platforms have the ability to listen to this song."
+      },
+      {
+        "role": "agent",
+        "content": "@622527 1: Hey! Can you fire over the Spotify URI? Just right-click the track &gt; Share &gt; URI. If you're on mobile, send us the Song Link instead."
+      },
+      {
+        "role": "agent",
+        "content": "@622527 2: Just tap the three dots &gt; Share &gt; Copy Link. We'll take a look behind the scenes /MC"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares https://t.co/Yfv15KfbVF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It’s avalible on my laptop but not on mobile"
+      },
+      {
+        "role": "agent",
+        "content": "@622527 That's odd. What's the make and model of your mobile device? Could you also let us know the OS and Spotify version you're using? /MC"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Hey. I have an iphone 6s. iOS 11.1. spotify version 8.4.25.906."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Its working now. :D"
+      },
+      {
+        "role": "agent",
+        "content": "@622527 Woohoo! This calls for a https://t.co/ArJFNes23V."
+      }
+    ]
+  },
+  {
+    "conversation_id": "d7d306e147a5d72a1bda33b17246cab3",
+    "summary": "Customer is enquired about How can he become verified on Spotify. Agent updated the customer to check the artist page on Spotify and sent URL  regarding  requesting  for access.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "How can I become verified on spotify  @SpotifyCares @115888"
+      },
+      {
+        "role": "agent",
+        "content": "@662174 Hey there! Just to check, do you have an artist page up on Spotify? We'll see what we can suggest /LP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Trellblazzer"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I make beats. Producer"
+      },
+      {
+        "role": "agent",
+        "content": "@662174 Cool. To get verified, you’ll need to request access to Spotify for Artists here: https://t.co/obFLZ92rF4."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Thank you alot for the link"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Hope I can be"
+      },
+      {
+        "role": "agent",
+        "content": "@662174 Fingers crossed you'll get verified soon. If there's anything else, just give us a shout. Have a great day 🙂 /LP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Same here. I'll try later when have the time"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares How do I know if it went through"
+      }
+    ]
+  },
+  {
+    "conversation_id": "5e606bb66ca548c4b1126c35a940ecb7",
+    "summary": "Customer is having an issue with saving the downloaded songs to his device. Agent asked to send the screenshot of the error message and informed to follow the steps for downloading via mobile data through URL and finally asked to DM the account's username and email address to look backstage.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Tidak bisa save spotify ke SD padahal memory masih available. @118266 @SpotifyCares"
+      },
+      {
+        "role": "agent",
+        "content": "@165998 Hey there! Hey! We can help out in English via Twitter, but we also have Indonesian support via email at https://t.co/ZgU70TbP8M /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I can't save my downloaded song to my storage device even it's availabe"
+      },
+      {
+        "role": "agent",
+        "content": "@165998 Thanks! Are you getting any error messages when trying to save your songs in your SD card? Can you send us a screenshot? /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Now seems I can use storage device to save. Bt the song I've been downloaded can't play offline. I hv to re-download. Where's all my songs?"
+      },
+      {
+        "role": "agent",
+        "content": "@165998 Just to check, what troubleshooting step/s did you do before it worked? /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Setting - app - spotify - delete chache - uninstall - turn off my phone - turn on - install spotify. Then all of my downloaded song's gone!"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Just for the example https://t.co/V0r5WVSwGQ"
+      },
+      {
+        "role": "agent",
+        "content": "@165998 Thanks. Since you reinstalled the app, all date are also deleted. You'd really need to resync your offline songs after reinstalling /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares How? Show me the way"
+      },
+      {
+        "role": "agent",
+        "content": "@165998 We can see you're on LTE. Make sure that you follow the steps at https://t.co/QyFvTgzOMP to allow downloading via mobile data /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I've change my signal to 3g and it's not working. https://t.co/ist88blyGi"
+      },
+      {
+        "role": "agent",
+        "content": "@165998 Can you go to Your Library &gt; Settings &gt; Music Quality and urn the switch on for Download using cellular? Does that help? /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Done and still not working. I don't understand why I can't download using cellular. https://t.co/JClu6cBQWN"
+      },
+      {
+        "role": "agent",
+        "content": "@165998 Can you DM us your account's username or email address? We'll take a look backstage /JP https://t.co/ldFdZRiNAt"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Sure. Should I logout first?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "232e0ad5cf9d1573e1725a415972f850",
+    "summary": "The customer is complaining that he is facing freezing issue on his windows 10pc  even reinstalling the os and restarting the system doesn't helped him to resolve the issue. The agent asked the customer to dm his email address or username.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Hi @spotifycares the Windows 10 app freezes and crashes consistently on my PC. Resetting, uninstall/reinstall has not helped. Known issue?"
+      },
+      {
+        "role": "agent",
+        "content": "@267252 Hey Tommy, that's not cool! Which Spotify app version are you running? Also, is this happening at any specific points (like during login, or while listening to music)? We'll see what we can suggest /WP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares App freezes and crashes on open before I can even check version number. Downloaded from the Win10 Store, latest release 10/24."
+      },
+      {
+        "role": "agent",
+        "content": "@267252 Copy that. If you haven't tried this yet, can you restart your PC? Can we also know when did this start happening? Was it after a specific update? /WP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Restarting hasn't helped. Started on Monday."
+      },
+      {
+        "role": "agent",
+        "content": "@267252 Got it. Just to check, is this also happening on any other devices? Keep us posted /JI"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Fine on my iOS and Amazon devices. Freeze/crash only occurs on my Windows 10 PC. I've had to completely uninstall the app for now because new installation appears to default to \"Open on startup\" which also freezes my system. Good luck!"
+      },
+      {
+        "role": "agent",
+        "content": "@267252 Sorry to hear that. Can you DM us your account's email address or username? Let's carry on there /JE https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "76b6f8525af26884261827ef3ce3a269",
+    "summary": "Customer is complaining about the song beat which got changed and is more high pitch now. Agent asks several questions and updates that this issue has been reported.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888 is on some demon shi* rn damn"
+      },
+      {
+        "role": "agent",
+        "content": "@446334 Hey there! Could you tell us what's happening exactly? Keep us posted /DF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Same problems my friends have been complaining about. One of Why Don’t We’s song (these girls) the beat got changed and it’s more high pitched now."
+      },
+      {
+        "role": "agent",
+        "content": "@446334 Got it! Could you tell us the device you're using? Keep us posted /DF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I usually use my phone. I also downloaded the song onto my Apple Music library and it sounds fine when I listen to it on there."
+      },
+      {
+        "role": "agent",
+        "content": "@446334 Got it! Can you send us the Song Link? Just tap the three dots &gt; Share &gt; Copy Link /DF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares https://t.co/ePaLk2PuZR"
+      },
+      {
+        "role": "agent",
+        "content": "@446334 Thanks! Could you give us more detail on the song's beat? Also, what phone model, operating system, and Spotify version are you using? /MT"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Idk the beat is just weird. I have the iPhone 7 and I just updated it today. I also have the most recent Spotify update"
+      },
+      {
+        "role": "agent",
+        "content": "@446334 We appreciate the heads-up. Just to make sure, is this issue happening on other devices? /MT"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Yes it is"
+      },
+      {
+        "role": "agent",
+        "content": "@446334 Thanks. We'll get this reported. Great detective work! https://t.co/LpsmyUtme0 /DF"
+      }
+    ]
+  },
+  {
+    "conversation_id": "ce5d1a623a1b7ddbfd893fb3371e4361",
+    "summary": "Customer is complaining that they was wondering that recently lost his bank card and was wondering if they payment would still come out of his account. Agent updated that they will responded to his DM.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares hi I was wondering I recently lost my bank card I was wondering if my payment would still come out of my account"
+      },
+      {
+        "role": "agent",
+        "content": "@124926 Hi Sammy, help's here! If your card was lost you'll need to update your payment details. Check out https://t.co/eLyygOSIMB for more info /TY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I lost my card but I can give my account number"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Can my payment still come out"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares If I my card is cancelled"
+      },
+      {
+        "role": "agent",
+        "content": "@124926 Got it. If your card was reported as lost, then it's likely no longer authorized by your bank to make payments and needs to be updated /TY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares But can I put my account number in so my payment can still comes out"
+      },
+      {
+        "role": "agent",
+        "content": "@124926 Currently, not directly through Spotify. However, can you DM us your account's username and email address? We'll see what we can suggest /TY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Hi I signed in with Facebook"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Can you help me"
+      },
+      {
+        "role": "agent",
+        "content": "@124926 Hey! We just responded to your DM. We'll keep helping out there 🙂 /TY"
+      }
+    ]
+  },
+  {
+    "conversation_id": "14777d360646060863ac5a874791bf32",
+    "summary": "Customer complains that the song is displayed on the different album. Agent asks to DM the account's email address or username for further assistance.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "lol @115888 @SpotifyCares please fix, the app is drunk 😂 https://t.co/6MJg7WzJuK"
+      },
+      {
+        "role": "agent",
+        "content": "@174972 Hey there! Help's here. Can you let us know the iOS and app version you're using? We'll see what we can suggest /PB"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Well, I found the correct song on a different album but that doesn't change the fact this album is broken so you might want to check it. https://t.co/mDDCbOWqHe"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares but just in case you still need the info to check on this issue, I'm on iOS 11.0.2, app version 8.4.20.535"
+      },
+      {
+        "role": "agent",
+        "content": "@174972 Thanks for the info. Can you send us the Song Link? Just tap the three dots &gt; Share &gt; Copy Link /PB"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares https://t.co/7TdhVfq21J it's comes up as I will survive but look at the album title and cover."
+      },
+      {
+        "role": "agent",
+        "content": "@174972 That's odd. It appears to be correct on our end. Can you try logging out then back in? Let us know how it goes /PB"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares even on an incognito desktop browser the results are the same https://t.co/njV9qHtWFD"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares it's the same across my iPad, iPhone, android device and desktop... it can't be an issue on my end can it?"
+      },
+      {
+        "role": "agent",
+        "content": "@174972 Hmm. Can you DM us your account's email address or username? We'll take a look backstage /PB https://t.co/ldFdZR1cbT"
+      }
+    ]
+  },
+  {
+    "conversation_id": "3949b3da58316f824ac0f5b7d84b176e",
+    "summary": "The customer is complaining that why can't they change songs from their home screen. The agent asked log out and restart the device and logging in back.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares why can’t I change songs from my home screen or control center? ?"
+      },
+      {
+        "role": "agent",
+        "content": "@211474 Hi there! Can you let us know the model of your iPhone and its iOS and Spotify versions? We'll see what we can suggest /JM"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares iPhone 7, iOS 11.0.3, Spotify version 8.4.24.506. Thank you!"
+      },
+      {
+        "role": "agent",
+        "content": "@211474 Got it. Just to check, did you start getting the issue after updating your OS or app to the latest version? /JM"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Yes! Also unable to use my car to change songs while through Bluetooth or the usb."
+      },
+      {
+        "role": "agent",
+        "content": "@211474 Could you try logging out, restarting your device, and logging back in? Does that make a difference? /JM"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Everything worked! Thanks!"
+      },
+      {
+        "role": "agent",
+        "content": "@211474 You're welcome! Give us a shout if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv 💚 /JM"
+      }
+    ]
+  },
+  {
+    "conversation_id": "4d1fa7d646e6a5493bc893f4ee1c0acb",
+    "summary": "Customer is inquiring about saving the playlist in his android device. Agent state that that feature is currently unavailable in the customer's device.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "When @116130 make a playlist for you. Is there anyway to save it. Or just save individual?"
+      },
+      {
+        "role": "agent",
+        "content": "@405756 Hey Danni! You just need to follow the playlist so you don't miss out. You can also add all the songs to a new playlist 🙂 /NG"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Sorry. It's not a playlist so no follow option. It's a daily mix xx"
+      },
+      {
+        "role": "agent",
+        "content": "@405756 1: Got it. You can also add the songs from your Daily Mixes to a playlist. If you're using the desktop app, just head to..."
+      },
+      {
+        "role": "agent",
+        "content": "@405756 2: Daily Mix &gt; click on the three dots &gt; Add to Playlist. Any other questions, let us know /NG"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Thanks babe. Kind of answers. Not on a computer so won't be able to do it x"
+      },
+      {
+        "role": "agent",
+        "content": "@405756 Hmm. What device, operating system, and Spotify version are you using? We'll see what we can suggest /NG"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares My Samsung phone. https://t.co/QMo1N05rAC"
+      },
+      {
+        "role": "agent",
+        "content": "@405756 1: We're afraid the option we've mentioned above is not available on your Android device right now. Not to worry, you can always add... /NG"
+      },
+      {
+        "role": "agent",
+        "content": "@405756 2: the tracks you enjoy to a playlist. Here's how: https://t.co/a38Mc2DlCx /NG"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Thank you xxx"
+      },
+      {
+        "role": "agent",
+        "content": "@405756 You're welcome! Were... https://t.co/fgy8YvXib9 💚 /NG"
+      }
+    ]
+  },
+  {
+    "conversation_id": "2797241cdc8ed398482bd4d1da11d92d",
+    "summary": "Customer is complaining that they are unable to listen the XX. Agent updates to DM their account's username or mail address so that they can check the things backstage.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888, why can't listen to @18979 anymore? 🙁"
+      },
+      {
+        "role": "customer",
+        "content": "@115888 @18979 Cc. @SpotifyCares HELP!"
+      },
+      {
+        "role": "agent",
+        "content": "@211169 Hi Ana, help has arrived. Are you getting an error message when trying to listen to The xx? We'll take a look /ME"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Thanks! No error message, I just press PLAY but nothing happens. I've tried it on other artists as well and I get the same issue"
+      },
+      {
+        "role": "agent",
+        "content": "@211169 Can you send over your device model/operating system and the Spotify version you're using? We'll see what we can suggest /ME"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I'm using Windows 10 on a Toshiba Satellite Pro. Spotify version 1.0.65.320.gac7a8e02"
+      },
+      {
+        "role": "agent",
+        "content": "@211169 Just to confirm, are you using a public or private connection? Is it possible for you to restart your router? Keep us posted /ME"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It happened both at work and at home, so both private networks. Just tried it on my Mac and it works - not sure it helps."
+      },
+      {
+        "role": "agent",
+        "content": "@211169 Thanks for the info, it did. Do logging out, restarting your device, and logging back in help at all? /ME https://t.co/ldFdZRiNAt"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I've restarted the computer and uninstalled Spotify but the problem remains. When I try to play one specific song it says it's not available"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Could it be because I activated the Premium trial and it just went back to the free version?"
+      },
+      {
+        "role": "agent",
+        "content": "@211169 You should still be able to play songs on-demand on the desktop app. Just to check, can you still play other artists' songs? /MU"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares The XX and alt-j I can't. I've tried others (e.g. Jamie XX and Broken Bells) and there was no issue"
+      },
+      {
+        "role": "agent",
+        "content": "@211169 Can you DM us your account's username or email address? We'll check things backstage /MU https://t.co/ldFdZRiNAt"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Done :)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "a9657cc81ad2272943945304b46a73e9",
+    "summary": "Customer is enquiring about Este Corazon is only RBD Song, So he needs some other songs needs to be played. Agent asked what country the customer account is set to and send the URL which is having info about Spotify content and finally issue resolved.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I wanna know why Este Corazon is the only RBD song I can find on @115888"
+      },
+      {
+        "role": "agent",
+        "content": "@472114 Hey Ingrid! Can you tell us what country your account is set to? We'll check things out /CH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares United States!"
+      },
+      {
+        "role": "agent",
+        "content": "@472114 Fingers crossed we'll be able to have all of their songs soon, but there's info about Spotify content here: https://t.co/0i8GpimuDa /CH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Sweeeet!"
+      },
+      {
+        "role": "agent",
+        "content": "@472114 Cool beans! You know where to find us if there's anything else you need help with. https://t.co/uEkAlnxbzn 😉 /CH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Thank you! 😌"
+      },
+      {
+        "role": "agent",
+        "content": "@472114 You're always welcome! 😉 /CH"
+      }
+    ]
+  },
+  {
+    "conversation_id": "fe3ae2b04b3e795b44a0d8be5d2f6cbe",
+    "summary": "Customer complains that they are not able to play the songs in the app. Agent asks to DM account's email address or username for further assistance.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Hey @115888 I can't play any song by @2235 in the app. OP5. I have already un installed and deleted the cache."
+      },
+      {
+        "role": "agent",
+        "content": "@352349 Hey Jorge! That doesn't sound good. Just to check, are you getting any error messages? A screenshot can be handy /AU"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Not really, I click on a song and it just stays stuck. If I'm playing another song it stops and nothing plays afterwards. https://t.co/9A4bg9w2PX"
+      },
+      {
+        "role": "agent",
+        "content": "@352349 Can you try restarting your device, then log out and back in? While you're at it, what Android and Spotify versions are you using? /AU"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I have already restarted and logged out and it didn't work. The android version is 7.1.1 and the app version is 8.4.22.857."
+      },
+      {
+        "role": "agent",
+        "content": "@352349 Hmm. Is this only happening via 3G/4G, or is it the same with WiFi? Keep us posted /NY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It is the same with 4G and with wifi."
+      },
+      {
+        "role": "agent",
+        "content": "@352349 Got it. Does restarting your connection help at all? Also, are you getting the same result when you try using a different device? /NY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Restarting the connection didn't help. I tried it on my laptop and the songs are playing there."
+      },
+      {
+        "role": "agent",
+        "content": "@352349 Thanks for the info. Best thing to try here is a reinstall. Just follow the steps at https://t.co/EqisDMwZAT."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Hi, I just updated the app version in my laptop and the songs are not playing there anymore. It says: The song is not available. If you have the file on your computer you can import it. I am paying premium by the way."
+      },
+      {
+        "role": "agent",
+        "content": "@352349 Thanks for giving it a try. Can you DM us your account's email address or username? We'd like to check further /RK https://t.co/ldFdZRiNAt"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I haven't heard anything back from you and the issue is still going on."
+      }
+    ]
+  },
+  {
+    "conversation_id": "759efc74f4451167bacb74b6f23d7261",
+    "summary": "Customer is having a shuffle issue. Agent updated that they have recently made few improvements in shuffle algorithm and informed the customer to give a feedback on it.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares do you guys plan to ever fix the shuffle issues? (win10mobile and desktop) https://t.co/e6SVhcZUXE"
+      },
+      {
+        "role": "agent",
+        "content": "@552951 Hi Remi! We’ve recently made some improvements to our shuffle algorithm. We’d love to hear your feedback here: https://t.co/T3vZnSL3od /AU"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Try to shuffle on artists \"Rancid\"; will get track \"Ruby Soho\" and many recent track mutliple times while nothing from their older albums."
+      },
+      {
+        "role": "agent",
+        "content": "@552951 Sorry to hear that. We'll make sure to pass your feedback on to the right team. If there's anything else, just give us a shout /AU"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares One month later... still waiting for some come back from you on this https://t.co/1IojWFo8Ds seems to me you guys don't care at all"
+      },
+      {
+        "role": "agent",
+        "content": "@552951 Hey Remi! We're still currently working on it. Rest assure that our devs are hard at work to bring you the best Spotify experience /QI"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares 2 month later, what is your progress on resolving this bug?"
+      },
+      {
+        "role": "agent",
+        "content": "@552951 We don't have any info to share about this yet, but we'll give our devs a nudge about this. For anything else, let us know /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Another month has gone by, pls give me news on the bugfix.. Spare me the PR bullshit pls"
+      },
+      {
+        "role": "agent",
+        "content": "@552951 We're afraid we don't have any news to share. Rest assured, we'll pass your comments onto the right team /DV"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Its been like that for the past 5 years, i dont know why i expected anything else.. Pass that to your bosses please https://t.co/WpQ7Iiqdnk"
+      },
+      {
+        "role": "agent",
+        "content": "@552951 We know how you feel. Don't worry, we'll let our devs know your feedback. Give us a shout if you have other questions /DV"
+      }
+    ]
+  },
+  {
+    "conversation_id": "8c5e2e8a0fc202501e0e771427aca615",
+    "summary": "Customer is complaining that he need to reconnect to shazam every time because they don't appear in the spotify shazam playlist. Agent updated that they can try logging out from both apps restarting his phone and logging back in.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Do I need to reconnect to shazam every time I shazam a new song because they don't appear in the spotify shazam playlist😫 @SpotifyCares"
+      },
+      {
+        "role": "agent",
+        "content": "@386661 Hey, that doesn't sound right! Can you let us know your device, operating system, and Spotify version? We'll see what we can suggest /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Iphone and mac, both of them have the latest spotify update"
+      },
+      {
+        "role": "agent",
+        "content": "@386661 Thanks! Just to check, is this happening on both devices or just on your phone? /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Yeah both, I mean I'm using the same account on both of them anyways so"
+      },
+      {
+        "role": "agent",
+        "content": "@386661 Got it, but is Shazam installed on both devices? On which device is your Shazam being disconnected? /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Ah no only on my phone"
+      },
+      {
+        "role": "agent",
+        "content": "@386661 Thanks for clarifying! Can you try logging out from both apps, restarting your phone, and logging back in? Any better? /JP"
+      }
+    ]
+  },
+  {
+    "conversation_id": "efbc33d88b67c0870ab9fba1e3e2a7ff",
+    "summary": "Customer is from Holland and saying that for a special deal of students the price of premium month is 5 euro. Customer has paid 10 euro and which he is willing to change. Agent has taken it as feedback and apologised for the inconvenience.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares where is Red Velvet’s new Album :( Peek-A-Boo"
+      },
+      {
+        "role": "agent",
+        "content": "@740998 Hey! Fingers crossed we'll be able to have it soon, but there's info about Spotify content here: https://t.co/0i8GpimuDa /DF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Thanks! I’ll do my best to wait!"
+      },
+      {
+        "role": "agent",
+        "content": "@740998 No worries! If you need anything else, just shout 🙂/DF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Also, I am from Holland and there is a special deal for Students, the price for premium month is 5 euro. I pay 10 euro each month. Can I change it? And can I link my ideal for it? Because they only accept Creditcard for it.."
+      },
+      {
+        "role": "agent",
+        "content": "@740998 At the moment the student discount is not payable with iDeal, but we'll pass your feedback on that its something you'd like to see. Sorry for any inconveniences /DF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It’s lowkey crazy, because Holland never pays with credit cards, everyone uses iDeal, most of them are students like me."
+      },
+      {
+        "role": "agent",
+        "content": "@740998 We can see how that’d be handy. Thanks for taking the time to reach out – your feedback's been noted 📝 /DF"
+      }
+    ]
+  },
+  {
+    "conversation_id": "faded407885483a15548a32b37c352df",
+    "summary": "Customer complaints that both in mobile and desktop, they are getting the error messages as \"songs are not available\". Agent requested to provide account's username or email address through DM for further assistance.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Spotify keeps giving me an error saying songs aren't available over &amp; over again. Both mobile &amp; desktop. Its frustrating. Help @SpotifyCares"
+      },
+      {
+        "role": "agent",
+        "content": "@323748 Hi Mike! Can you let us know the operating system and version of Spotify on your mobile phone and desktop? We'll see what we can suggest /FR"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Hi! I'm running OS Seirra with 1.0.65.320.gac7a8e02 and iOS 11.0.3 with the latest version of the app. Thank you!"
+      },
+      {
+        "role": "agent",
+        "content": "@323748 Could you send us the model of your iPhone &amp; the exact app version on it? You can check this in Your Library &gt; Settings &gt; About Spotify /LP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Yes, no problem! iPhone 7+ and the app version is 8.4.22.515"
+      },
+      {
+        "role": "agent",
+        "content": "@323748 Got it! Does logging out and back in help at all? Restarting your devices is also worth a shot. Keep us posted /LP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Logging in/out helps for a few minutes with most songs. But once I've played on both desktop &amp; mobile the songs are showing as unavailable."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I get the message saying the song is not available and to import it. Such as Underdog by Banks."
+      },
+      {
+        "role": "agent",
+        "content": "@323748 Hmm. Can you send us your account's username or email address via DM? We'll take a look under the hood /LP https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "530a13e2b75bbc5b20dd6e3f8b295861",
+    "summary": "Customer is complaining that when he click a song in one of his playlists it plays the right one. Agent suggest him to shut off his computer for the night.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "WTF is going on with @115888?"
+      },
+      {
+        "role": "customer",
+        "content": "@115888 I wish I had some desktop recording software so I could show you."
+      },
+      {
+        "role": "customer",
+        "content": "@115888 Funny enough, this is only happening under \"songs.\" When I click a song in one of my playlists, it plays the right one."
+      },
+      {
+        "role": "agent",
+        "content": "@180192 Hey Simeon! Can you let us know the browser you're using and its version? We'll see what we can suggest /AP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Google Chrome. version 61.0.3163.100. The latest version."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares P.S. This only started happening today. Yesterday, when I used spotify, I didn't have this problem."
+      },
+      {
+        "role": "agent",
+        "content": "@180192 Got it. Does the same thing happen when you use an incognito window? /AP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I don’t know what incognito window is. Anyway, I already shut off my computer for the night. I’ll tell you tomorrow if it still does this..."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares ...in incognito window."
+      },
+      {
+        "role": "agent",
+        "content": "@180192 You can press Ctrl+Shift+N to open an incognito window. It helps avoid cached data/cookies from interfering the process. Keep us posted! /AP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I’ll let you know tomorrow if anything changed."
+      },
+      {
+        "role": "agent",
+        "content": "@180192 Sounds like a plan! We'll wait for your update. Good night 🙂 /AP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Well, things seem to be working now. It's playing the right song now. I guess shutting off my computer &amp; turning it back on fixed it."
+      },
+      {
+        "role": "agent",
+        "content": "@180192 Great! Glad to hear it's working. Just let us know if we can help with anything else. https://t.co/m4HWSbgHVZ 🙂 /AU"
+      }
+    ]
+  },
+  {
+    "conversation_id": "fc69e72fde39c9e2cdfbd9532425e01e",
+    "summary": "Customer asking when gonna sort albums by length and release date  he wanna access eps/new releases. Agent telling that  by this url there's info  on sorting and filtering.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "So when's @115888 gonna let us sort albums by length and release date, I wanna access EPs/new releases quickly"
+      },
+      {
+        "role": "agent",
+        "content": "@398465 Hey! There's info on sorting and filtering here: https://t.co/5hjtm5AdqM."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares While I appreciate you getting back to me so quickly, your suggestions weren't really that helpful. I already use Release Radar and [1/2]"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares While I love release radar, I just want to be able to sort through the albums I've -already saved- by album length and release date. [2/2]"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Maybe a nice option for premium users would be to manually organize your albums into a sort of meta playlist, I think this would be [3/2]"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Really useful if I want to search through my albums by genre as well"
+      },
+      {
+        "role": "agent",
+        "content": "@398465 We're afraid this isn't currently possible. To help make it happen, add your vote for a similar idea at https://t.co/e4LI1pbSdX /AR"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Thank you, I'll do just that."
+      },
+      {
+        "role": "agent",
+        "content": "@398465 You're welcome! If you ever need us with anything else, just give us a... https://t.co/AUc7DGJpgF 🙂 /AR"
+      }
+    ]
+  },
+  {
+    "conversation_id": "d42302c9690520d8e7944b83905b76af",
+    "summary": "The customer is complaining that the app is not at all working properly. The agent asked to re login and asked to dm them their account's email address.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "About to drop @115888."
+      },
+      {
+        "role": "agent",
+        "content": "@556756 Hey, this doesn't sound good. Can you let us know the device/OS and Spotify version you're using? We'll check it out /NY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares iPhone 6 Plus/iOS 11.0.3 and I’m using Spotify mobile ver. 8.4.22.515"
+      },
+      {
+        "role": "agent",
+        "content": "@556756 Thanks. Just to check, are you getting any error messages? If so, a screenshot of it will be handy. We'll take a look /NY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares No error message. The player disappears when you click on a song and the app doesn’t appear to be doing anything."
+      },
+      {
+        "role": "agent",
+        "content": "@556756 Hmm. Can you try logging out of Spotify, restarting your device, and logging back in to see if that helps? Keep us posted /NY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Gave it a shot. Still running into the same bug."
+      },
+      {
+        "role": "agent",
+        "content": "@556756 Got it. Can you try the steps here for us: https://t.co/EqisDMwZAT?"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Dang. Tried the reinstall and still can’t get my Frank."
+      },
+      {
+        "role": "agent",
+        "content": "@556756 Alright. Can you DM us your account's email address? We'll check things behind the scenes /NY https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "11114c1b3bf3362b9656e7079689afba",
+    "summary": "Customer complains that while connecting to WiFi the music is not getting loaded. Agent ask to send account's username or email address for further assistance.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888 any idea when you’ll fix the WiFi glitch? Music won’t load when connected to work WiFi. Forums show this is a known issue?"
+      },
+      {
+        "role": "agent",
+        "content": "@524904 Hi Nicole, help's here! Can you let us know your device's model, OS, and Spotify version? We'll see what we can suggest /DV"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Spotify version 8.4.25.906/happening since September 20th on my old iPhone 6, my new 8+ and iPad Pro. iOS versions 10, 11, 11.1, and 11.2."
+      },
+      {
+        "role": "agent",
+        "content": "@524904 Got it. Can you try to see if logging out &gt; restarting your phone &gt; logging back in to your account makes a difference? /DV"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Now I can’t log in but our network is fine https://t.co/83HBYez2BU"
+      },
+      {
+        "role": "agent",
+        "content": "@524904 No worries. If possible, does restarting your router help? Also, does this happen with our WiFi networks? /DV"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Router restarted. Only able to login if not connected to WiFi. IT dept says “it’s a known Spotify issue” 🙄🤷🏼‍♀️ Works fine on other WiFi’s."
+      },
+      {
+        "role": "agent",
+        "content": "@524904 Just to confirm, are you using a private or public WiFi network? Also, do you have access to a different network you could try with? /BH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Private WiFi. No issues w/home WiFi. My IT dept says it’s a “known Spotify issue”; but they are likely wrong. TY for troubleshooting"
+      },
+      {
+        "role": "agent",
+        "content": "@524904 Could you send us your account's username or email address? We'll take a look backstage /TM"
+      }
+    ]
+  },
+  {
+    "conversation_id": "b7fce426636f952dc622d24d0a4113ff",
+    "summary": "The customer is complaining that his spotify was offline but his data was activated. The agent asked to give their iphone a quick restart.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares hi, Spotify isn’t set on offline but every time I’m not on WiFi it says “Spotify is offline” but my data is activate"
+      },
+      {
+        "role": "agent",
+        "content": "@422419 Hey Camille, that doesn't sound right. What device, operating system, and version of Spotify is this happening on? We'll lend a hand /SY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares iPhone 6, iOS 11.0.3 https://t.co/LjBrzL9HVr"
+      },
+      {
+        "role": "agent",
+        "content": "@422419 1: Thanks! Just to check, are you only getting the issue when you're on 3G/4G?"
+      },
+      {
+        "role": "agent",
+        "content": "@422419 2: If you're getting any error messages, can you send us a screenshot for us to check? /SY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Yes, when I’m on WiFi it’s working"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I’m not on WiFi but on 4g so it should work https://t.co/hWtazjnw2f"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares And this is not set offline https://t.co/seEeBVAKb4"
+      },
+      {
+        "role": "agent",
+        "content": "@422419 Thanks for the info. Can you try giving your iPhone a quick restart? Let us know if it make any difference /SY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It’s working now, thanks"
+      },
+      {
+        "role": "agent",
+        "content": "@422419 You're welcome! If you ever need anything else, just shout and we'll come running 🏃 /KL"
+      }
+    ]
+  },
+  {
+    "conversation_id": "bb351d26154e3c406515066a7db2810b",
+    "summary": "The customer is unable to play the album even after several different way of trying and he has shared the screenshot of that error. Agent is asking for the device and operating system's information and added that he has reported the issue to the developers.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares did divide get taken down from Spotify? It's  the only @118276 album that doesn't play"
+      },
+      {
+        "role": "agent",
+        "content": "@407492 Hi Jonathan! Just to check, are you getting any error messages when you try playing the album? A screenshot of it will be handy /NY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares There are no error messages. It just says that i can import it if I have it on my computer."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Now it's says \"this song is not available\" on 90% of his songs..."
+      },
+      {
+        "role": "agent",
+        "content": "@407492 Got it. Could you let us know what device and operating system you're using? Also, is the same issue happening on a different device? /RK"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Samsung GS7 edge android. It also happens on my desktop. I'm running win 10"
+      },
+      {
+        "role": "agent",
+        "content": "@407492 Thanks for the info. Could you try logging out &gt; restarting both devices &gt; logging back in? Does that help? /RK"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Continues to say \"this song is not available.\""
+      },
+      {
+        "role": "agent",
+        "content": "@407492 Hmm. Best thing to try here is a reinstall. Just follow the steps at https://t.co/EqisDMwZAT. Keep us posted!"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I've done that. still nothing. here's a screenshot of what it says when i try to play a song. https://t.co/7oTQ5nbSRQ"
+      },
+      {
+        "role": "agent",
+        "content": "@407492 Thanks for that screenshot. Does the same thing happen even when you're using a different internet connection? /RK"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Wi-Fi or wired. Still the same. Rather odd."
+      },
+      {
+        "role": "agent",
+        "content": "@407492 We appreciate your patience. We've reported this and our developers are looking into it. We'll keep everyone updated /RK"
+      }
+    ]
+  },
+  {
+    "conversation_id": "1d84e05bf880090d1e957bec57fea6bb",
+    "summary": "Here customer wants the answer for music not getting played in music library. Here agent explains him that only downloaded list can be able to play offline.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888 why when I listen on my computer do I have to be Online to get my full library of songs. Sort of an inconvenience."
+      },
+      {
+        "role": "agent",
+        "content": "@766421 Hey Ryan! Only the songs you have downloaded will be available for offline play. Let us know if there's anything else we can do for you /TF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Yeah I get that. So where do I download them with the app on my computer these are the options I have https://t.co/el2ZdaRxhB"
+      },
+      {
+        "role": "agent",
+        "content": "@766421 Got it. Here's some handy info about listening to your music offline: https://t.co/WSjJgGAmPy /TF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Yes I know how that works but there is no download button above my songs list"
+      },
+      {
+        "role": "agent",
+        "content": "@766421 We hear you. Just to check, are the songs you're wanting to listen to while offline currently in a playlist? Keep us posted /TF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Some are some aren't"
+      },
+      {
+        "role": "agent",
+        "content": "@766421 We hear you. In order to save songs for offline listening, you will need to create a playlist with those songs in it. You should then see an option to download the songs. Give that a shot and let us know how it goes /TF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares That's not a pain in the ass at all"
+      },
+      {
+        "role": "agent",
+        "content": "@766421 We understand your frustration. We'll pass this feedback on to the right team /TF"
+      }
+    ]
+  },
+  {
+    "conversation_id": "231ee05519965bc3c16d13d23704d47e",
+    "summary": "Customer is saying that he is unable to sign in. Agent suggested to delete previous tweet as it contains private information.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Hi @SpotifyCares I'm not able to sign up to @115888."
+      },
+      {
+        "role": "agent",
+        "content": "@186387 Hey there! Could you tell us what's happening exactly? We'll see what we can suggest /DF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Here it is. https://t.co/NgDEOnkBV9"
+      },
+      {
+        "role": "agent",
+        "content": "@186387 1: Thanks! Could you let us know which country you're currently in?"
+      },
+      {
+        "role": "agent",
+        "content": "@186387 2: On the other hand, we'd recommend deleting your previous tweet as it contains your private info /PL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I'm from Kenya."
+      },
+      {
+        "role": "agent",
+        "content": "@186387 1: Got it! We're still not available in Kenya. We're launching in new countries as often as possible."
+      },
+      {
+        "role": "agent",
+        "content": "@186387 2: Be sure to add your email at https://t.co/X8DVSX9QgM /PL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares You don't have specific dates for the launch? I'd like use the app."
+      },
+      {
+        "role": "agent",
+        "content": "@186387 We don't have any specific info to share about this, so make sure to keep an eye out for any updates /PL"
+      }
+    ]
+  },
+  {
+    "conversation_id": "51de944840bb330ddea2128aeef27cda",
+    "summary": "Customer is complaining that it's not properly syncing when he is using chromecast on the app. Agent updated him to try reinstalling the app on his phone using the steps given.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Hey @115888, fix your Android app. It's not properly syncing when I'm using Chromecast on the app."
+      },
+      {
+        "role": "agent",
+        "content": "@309783 Hi there! Can you let us know what device and version of Spotify you're using? We'll see what we can suggest /DR"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Android Moto G v5.1 for the device. Spotify v8.4.22.857"
+      },
+      {
+        "role": "agent",
+        "content": "@309783 Thanks for that. Does logging out, restarting your device, and logging back into Spotify help with resyncing? Keep us in the loop /JI"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares That part works fine as it should. What the issue with the app is that when I sync it to Chromecast, it unsyncs it after 1 song (1/2)"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares (2/2) When I go to resync it to Chromecast, it says \"For premium users only\". It's my own device."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I've had to change the Chromecast to YouTube or Twitch just to turn the Spotify Chromecast off."
+      },
+      {
+        "role": "agent",
+        "content": "@309783 Can you try reinstalling the app on your phone using the steps here: https://t.co/EqisDMwZAT?"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It's fixed now. https://t.co/QBOrLbs7L0"
+      },
+      {
+        "role": "agent",
+        "content": "@309783 Cool! Glad to hear it's working now. Just give us a shout if you need help with anything else. We're just a tweet away 🙂 /LM"
+      }
+    ]
+  },
+  {
+    "conversation_id": "6cc6d10052f4ec6e6f5837a1a6310dc8",
+    "summary": "The customer is complaining that he can not able to play the songs. The agent asks them to dm account email address or username for info.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares \nI can play several albums, including this one in Chrome, but the application won't play it\n\nhttps://t.co/fZ2Z9SvQb4 https://t.co/9J9vUW664T"
+      },
+      {
+        "role": "agent",
+        "content": "@330968 Hi there! Can you let us know the device, operating system, and Spotify version you're rocking? We'll see what we can suggest /JM"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I have an iMac\n\nEl Capitan Version 10.11.6\n\nSpotify version: 1.0.65.320.gac7a8e02"
+      },
+      {
+        "role": "agent",
+        "content": "@330968 Thanks! Can you try logging out, restarting your device, and logging back in? Let us know if that made a difference /JM"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Nope, still can't get the songs to play."
+      },
+      {
+        "role": "agent",
+        "content": "@330968 1: Are you not able to play all the tracks in the album you're referring to? Also, could you fire over its URI? Just go to the..."
+      },
+      {
+        "role": "agent",
+        "content": "@330968 2: album &gt; 3 dots &gt; Share &gt; URI. We'll also need you to DM us your account's username or email address so we can further check some info /JM https://t.co/ldFdZRiNAt"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Slid into your DMs."
+      }
+    ]
+  },
+  {
+    "conversation_id": "030babcfd6bc66da743c900cf0cdcb8f",
+    "summary": "Here customer is facing some issue while using music app. Here agent ask the device details and ask customer to logout the app even if he faces same issue can reinstall the app.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Hey @115888 @SpotifyCares what is this https://t.co/MxGauYdSFu"
+      },
+      {
+        "role": "agent",
+        "content": "@559512 Hi there! Can you let us know what exactly is happening? We'll see what we can suggest /NY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares When I clicked on one of my music .. the description says it otherwise https://t.co/1FvN4YKrSe"
+      },
+      {
+        "role": "agent",
+        "content": "@559512 Thanks for the info. Can you let us know the device/OS and Spotify version you're using? /NY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I'm using iOS 10.2 and my Spotify version is 8.4.22.515"
+      },
+      {
+        "role": "agent",
+        "content": "@559512 Cool! Just to check, does logging out of Spotify, restarting your device, and logging back in help at all? Keep us posted /NY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Nope.. besides I'm scared that if i do logging out , i cant remember the password. And my premium will run out of the time"
+      },
+      {
+        "role": "agent",
+        "content": "@559512 We'd suggest a reinstall, but it would remove your downloads. If you're cool with this, the steps are here: https://t.co/EqisDMwZAT /NY"
+      }
+    ]
+  },
+  {
+    "conversation_id": "b9f543264a3f63135d37e2b65eee99cb",
+    "summary": "Customer is complaining that when he is listening to music on spotify and accept a call but only way to get the music to resume is to completely force close the app and reopen it. Agent updated that to DM his account's username or email address.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares not sure if iOS bug or specifically relating to the X but when I’m listening to music on Spotify and accept a call. The only way to get the musi to resume is to completely force close the app and reopen it"
+      },
+      {
+        "role": "agent",
+        "content": "@471615 Hey, help's here! Can you let us know the iOS and Spotify versions you're using? We'll see what we can suggest /GK"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares iOS 11.2, Spotify version 8.4.25.906"
+      },
+      {
+        "role": "agent",
+        "content": "@471615 Thanks for the info. Does restarting your iPhone make any difference? Keep us posted /XF"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares No, I have to close the app each time I finish talking on a call in order for Spotify to give me the option to play/pause the music again. Otherwise it says it’s playing and the time goes on with no music playing and won’t let me pause it"
+      },
+      {
+        "role": "agent",
+        "content": "@471615 Best thing to try here is a reinstall. Just follow the steps at https://t.co/EqisDMwZAT."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares This doesn’t do anything. Just tried to replicate the fault on my girlfriends iPhone 5s and it works as it should. Has anyone at Spotify tried this on an \n\niPhone X? Play music&gt;accept a call&gt;end call&gt;music should resume playing and allow you to pause it"
+      },
+      {
+        "role": "agent",
+        "content": "@471615 Can you DM us your account's username or email address? We'll check things backstage /MU https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "ca875aac704420d23312251b50948195",
+    "summary": "Customer is complaining that the same song is being played in the play list. Agent clarified few details and state that the feedback is been noted.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888 what's the deal with the weak random in playlists? Keeps playing the same band consecutively - this has been happening forever now!"
+      },
+      {
+        "role": "agent",
+        "content": "@533903 Hey! We’ve made some improvements to our shuffle algorithm. We’d love to hear your feedback here: https://t.co/T3vZnSL3od /RI"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It's a little out dated"
+      },
+      {
+        "role": "agent",
+        "content": "@533903 To clarify, does this happen when you're using Shuffle with Connect? /YM"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I try to shuffle in playlist and it really doesn't play randomly, plays the same artist almost continuously. Don't know what connect is"
+      },
+      {
+        "role": "agent",
+        "content": "@533903 We'll take note of that. Can you let us know if you listen on your speakers or TV, using the Spotify app as a remote? /YM"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares From my phone via Bluetooth connection."
+      },
+      {
+        "role": "agent",
+        "content": "@533903 Thanks for clarifying and for taking the time to reach out – your feedback's been noted 📝 /YM"
+      }
+    ]
+  },
+  {
+    "conversation_id": "b2feca818105d5db4d7c2764444eecbf",
+    "summary": "Customer is complaining about the app as she logged in she finds more number of garbage. Agents updated her that he will share the feedback with the team.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Hey @115888, you have so much data on my listening habits, yet every time I open your app I am bombarded with so much garbage 1/2"
+      },
+      {
+        "role": "customer",
+        "content": "@115888 I will never click on any of it, so why show it? Surely you can do a better job of customizing what I see...."
+      },
+      {
+        "role": "agent",
+        "content": "@539300 Hi Ken! We're sorry if our track recommendations wasn't to your liking. We'll let our relevant folks know about your feedback /DR /DR"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Listen, @115888. It's not your recommendation engine that's the problem. It's awesome."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares @115888 2/2 that I see when I open the app on the browse page. Surely you know that \"This is Pink\", Top Dance Tunes and Deutschrap Royal aren't me"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares @115888 Seems you'd make more money for your artists by presenting relevant content everywhere. 3/4 of the content is currently irrelevant to me"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares @115888 You have my data, use it to serve me not the corporations that are promoting music I don't care about."
+      },
+      {
+        "role": "agent",
+        "content": "@539300 Thanks for clarifying. It's great to hear your thoughts about this. Don't worry, we'll share the feedback with our team to consider /DR"
+      }
+    ]
+  },
+  {
+    "conversation_id": "72f93c47051557d1f8365f3da3c5b91c",
+    "summary": "Customer is complaining that he is unable listen to the albums and logged out every time he tried listening. Agent requests for the versions of the device/OS, Spotify app and customer's account information for better assistance.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@117153 I have been listening to Kendrick Lamar’s damn album but every time I use my skips it kicks me out and won’t let me listen"
+      },
+      {
+        "role": "agent",
+        "content": "@438202 Hi Ray! Are you getting any specific error messages? Can you let us know which device/OS and Spotify version you're using? /YM"
+      },
+      {
+        "role": "customer",
+        "content": "@117153 I’m useing the latest version on a iPhone 6s and I get no messages at all"
+      },
+      {
+        "role": "customer",
+        "content": "@117153 Saying that there was errors"
+      },
+      {
+        "role": "agent",
+        "content": "@438202 Hmm. Does logging out, restarting your phone, and logging back in help at all? /YM"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I deleted the app read downloaded its shut down my phone and made a new account and it still is doing it"
+      },
+      {
+        "role": "agent",
+        "content": "@438202 Is this happening when streaming other albums? Can you send us the link to his album? Just tap the three dots &gt; Share &gt; Copy Link /YM"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Yes it doing it for everything. https://t.co/elADsyTg3w"
+      },
+      {
+        "role": "agent",
+        "content": "@438202 Can you DM us your account's username or email address? We'll check things out backstage /YM https://t.co/ldFdZR1cbT"
+      }
+    ]
+  },
+  {
+    "conversation_id": "6c08b57bbb7fbec55ebbadf4f2a38222",
+    "summary": "Customer is complaining that he is unable to play the songs in queue on Spotify app and it stops after playing 1 song. Agent requests for the details about the device, operating system and the Spotify version. Also suggests to follow few steps by sharing an URL.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares what do I do if my music stops playing. Like a song in a playlist will end but it won't move onto the next and then I can't"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Even play any song from the playlist, a different playlist etc. it just won't play I've already exited and went back into the app many times"
+      },
+      {
+        "role": "agent",
+        "content": "@360804 Hey there! Can you let us know the device, operating system, and Spotify version you're using? We'll see what we can suggest /PL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Apple iPhone SE, iOS 11, and newest version of Spotify."
+      },
+      {
+        "role": "agent",
+        "content": "@360804 Thanks for that! Does logging out &gt; restarting the device &gt; logging back in help at all? Keep us posted /CG"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Finally got around to trying it and no that did not work. It plays one song and then doesn't move on and makes it so I can't play anything"
+      },
+      {
+        "role": "agent",
+        "content": "@360804 We see. Can you try the steps here for us: https://t.co/EqisDMwZAT?"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares This seems to have worked thanks!"
+      },
+      {
+        "role": "agent",
+        "content": "@360804 Great! Glad to hear it's working. Just let us know if we can help with anything else. https://t.co/m4HWSbgHVZ 🙂 /VK"
+      }
+    ]
+  },
+  {
+    "conversation_id": "4ba439b8828450d43966936b5a245ee5",
+    "summary": "Customer is enquiring about how to upgrade to premium because he didn't find any option in the iOS app. Agent states it isn't possible to upgrade within the app and where he can upgrade by sharing an URL.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "When you don’t pay for Spotify the experience is really shit, worse than the radio…"
+      },
+      {
+        "role": "customer",
+        "content": "@115888 where do I click to upgrade:\n\nhttps://t.co/MbgkdHZZBX\n\n?"
+      },
+      {
+        "role": "customer",
+        "content": "@115888 If you want me to pay money for downgrading then experiencing a much *not cool* experience please show me how to give you my money again"
+      },
+      {
+        "role": "agent",
+        "content": "@773667 Hi Tim! We'd love to help out. You can upgrade to Premium here: https://t.co/1iF7T0iEU2 🙂 /MU"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Didn’t seem to be any option that I could find in the iOS app"
+      },
+      {
+        "role": "agent",
+        "content": "@773667 Sorry for the confusion. It's not possible to upgrade within the app, but you should be able to subscribe by heading to the link we've provided. Hope that helps /PB"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Thanks for the clarification ;-)"
+      },
+      {
+        "role": "agent",
+        "content": "@773667 You're welcome! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /PB"
+      }
+    ]
+  },
+  {
+    "conversation_id": "5cd61df2ee09c8cc91a303c2d7546d88",
+    "summary": "Customer is complaining about the crashing of Spotify app when tries to share a song from it and also he states he tried reinstalling the app. Agent is requesting for the device's make/model and versions of the android and the Spotify app.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I can't seem to share songs anymore. Help @115888 @181186"
+      },
+      {
+        "role": "agent",
+        "content": "@181185 Hey, we're here to help! Can you let us know what's happening exactly? Are you getting any error messages? We'll see what we can suggest /KM"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares The app crashes everytime I try to share a song, then it restarts playing the previous song."
+      },
+      {
+        "role": "agent",
+        "content": "@181185 That doesn't sound right. Does logging out then back in again make any difference? /KM"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Nope, I also tried uninstalling and reinstalling the app. Here's a recording of what I'm experiencing. https://t.co/KtSHEqkXex"
+      },
+      {
+        "role": "agent",
+        "content": "@181185 Thanks for sending that. Can you let us know your device's make/model, as well as the Android and Spotify versions you're using? /RH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Device is Huawei Google Nexus 6P. Android 8.0. Spotify ver 8.4.21.508"
+      },
+      {
+        "role": "agent",
+        "content": "@181185 Could you DM us your account's email address or username? We'll take a look backstage /RH https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "a750409471aea269d8a8c8feb939c465",
+    "summary": "Customer is complaining that spotify app in his phone shows offline even after logging out and restarting the device. Agent requests for the email address along with the version details of Andoid and Spotify app.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares hi! I've had a problem with my Spotify for over a month now. The app for my phone keeps telling me I'm offline. Please help me"
+      },
+      {
+        "role": "agent",
+        "content": "@174039 Hey there! Can you let us know your device, operating system, and Spotify version? We'll see what we can suggest."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Sure. I'm using the One Plus 2 with Android 6.0.1 and Spotify Version 8.4.21.508 armV7"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I used to have premium till it started to do that"
+      },
+      {
+        "role": "agent",
+        "content": "@174039 Got it. Does logging out and restarting your device help? Let us know how it goes /RC"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares No tried it a dozen times. Even uninstall it and reinstalled it multiple times"
+      },
+      {
+        "role": "agent",
+        "content": "@174039 Thanks for letting us know. Does it happen over 3G/4G, WiFi, or both? /SY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Both."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I recently moved countries. Could that be the issue?"
+      },
+      {
+        "role": "agent",
+        "content": "@174039 Can you DM us your account's username and email address? We'll take a look backstage /SY https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "bffb2a034fe491af43ba91af8d6f8ae7",
+    "summary": "Customer is complaining that the Spotify website player is crashing whenever tried to play the songs. Agent suggests to use a different web browser, incognito window and states to enquire with IT team for any restrictions they have put.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "And all I need is my music to keep me from going crazy and Spotify won’t load or play more than a few songs before crashing through their website player."
+      },
+      {
+        "role": "customer",
+        "content": "Looking straight at you @SpotifyCares 👀 I need my music or else I may have a mental breakdown"
+      },
+      {
+        "role": "agent",
+        "content": "@444595 Hey Katey! Does clearing your cache/cookies help? You might also want to try using an incognito window. Let us know how it goes 🙂 /KL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Well it’s a work computer so I don’t have a lot of permissions, but heard from a friend I was not the only one."
+      },
+      {
+        "role": "agent",
+        "content": "@444595 Got it. Can you let us know what web browser you're using? We'll be right here waiting /KL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I use chrome."
+      },
+      {
+        "role": "agent",
+        "content": "@444595 Are you able to try a different web browser? Also, do you have any antivirus/firewall programs activated? Keep us posted /KL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Just have chrome. And theres tons of security on this computer since it’s a work one. Seems to be more stable now"
+      },
+      {
+        "role": "agent",
+        "content": "@444595 Got it! Glad to hear it's more stable. If you ever need anything else, just shout and we'll come running 🏃 /KL"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Well it’s happening AGAIN today. Clear cache/cookies and it continues to crash in chrome."
+      },
+      {
+        "role": "agent",
+        "content": "@444595 Can you try using an incognito window? Could you also ask your work IT if they've put up some restrictions that might block Spotify? /JP"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It’s so random, hadn’t done it ever before when I first contacted you guys. And now it has randomly resolved itself again. I’ll try incognito next time it does it, but I know someone that this happened to in another country the other day."
+      },
+      {
+        "role": "agent",
+        "content": "@444595 Sounds like a plan. We'll keep an eye out for any updates /JP"
+      }
+    ]
+  },
+  {
+    "conversation_id": "abf8603770dc04865b1841c8c930a73d",
+    "summary": "Customer complains that he is unable to install Spotify 6 after updating the OS to iOS 11 and at the end states that he managed to resolve the issue. Agent asks for the exact version of the Spotify app to suggest a solution.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I am dying .. now what do I do ?? 😭😭 https://t.co/gbVq8QFrFI"
+      },
+      {
+        "role": "customer",
+        "content": "@116380 ! Pls fix"
+      },
+      {
+        "role": "agent",
+        "content": "@381216 Hi there. Don't worry, help's here. Can you tell us what's going on exactly? /JU"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares It’s saying the developers need to update the app ?"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I updated to iOS 11 and it’s not compatible with Spotify6 😭"
+      },
+      {
+        "role": "agent",
+        "content": "@381216 Could you tell us the exact Spotify app version you have on your device? We'll see what we can suggest /JU"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares All good , I managed to get in finally but the issue is I can not sign in with my Facebook app account, I had to manually type it in."
+      },
+      {
+        "role": "agent",
+        "content": "@381216 That's great! Just give us a shout if you need anything else. We're... https://t.co/zOXI69QSqg /JU"
+      }
+    ]
+  },
+  {
+    "conversation_id": "690d92c809efd09eaef09680ee7336a7",
+    "summary": "Customer is complaining about the lost downloaded songs on Spotify app. Agent wants to know whether the phone has any cache clearing apps and the storage location of the songs, also requests for the Spotify app version.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888 here we are again. All my downloaded music gone. What makes it even better its my first day of holiday in Tenerife with no music.....well played spotify"
+      },
+      {
+        "role": "agent",
+        "content": "@570961 Hi again! Did the steps previously provided work? Also, did this happen while you're online streaming or were you listening offline? /PK"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Downloaded last night. Went to listen on the plane and all gone"
+      },
+      {
+        "role": "agent",
+        "content": "@570961 We're sorry to hear about that. Can you check if your phone has any cache-clearing apps? /DV"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares None what so ever. Currently using a samsung galaxy s7"
+      },
+      {
+        "role": "agent",
+        "content": "@570961 Can you DM us the current version of your Spotify app? We'll check a few things backstage /KT https://t.co/ldFdZRiNAt"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares  https://t.co/JtuaQ3A7dg"
+      },
+      {
+        "role": "agent",
+        "content": "@570961 Got it. Can you send us a DM to confirm if all your songs are saved in your SD card or internal storage? We'll see what we can do /HR https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "e210ecb390f6cc283dce35303e80a45d",
+    "summary": "Customer is complaining that he cannot run the Spotify app in the background when using other apps even after restarting the phone. Agent requests for the email address along with the version details of Andoid and Spotify app.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares  I tried to listen to music and play a game on my phone. 4 times the music randomly stopped. I tried to read an article, again the music stopped. I tried to read reddit; stopped again. Why the fuck would I pay for such shitty service? How do you stay in business?"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares LG g4 android"
+      },
+      {
+        "role": "agent",
+        "content": "@797227 Hey there! Can you let us know the Android and Spotify versions you're using? We'll see what we can suggest /RH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares  https://t.co/Iie0lk9Nue"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Android version 6.0"
+      },
+      {
+        "role": "agent",
+        "content": "@797227 Got it! Is this happening on 3G/4G, WiFi, or both? Does restarting your phone make any difference? /KB"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Wi-Fi. Restarting my phone made no difference."
+      },
+      {
+        "role": "agent",
+        "content": "@797227 Hmm. Can you DM us your account's email address? We'll take a look under the hood /KB https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "caae83a2ed59e4959d814ea567980226",
+    "summary": "Customer asking  explanation why the create similar playlist function doesn't work anymore. Agent suggests to logging out and restart his device and logging back and also try to reinstall app and also dm his email address or username.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares hey, any explanation why the \"Create similar playlist\" function doesn't work anymore for me? MacBook, v1.0.64.399.g4637b02a."
+      },
+      {
+        "role": "agent",
+        "content": "@160485 Hi there, the cavalry's here! Does logging out, restarting your device, and logging back into Spotify help? Keep us in the loop /JI"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares no, it didn't :( tried everything but I still can't create the playlist. it's not even greyed out but nothing happens after clicking on it."
+      },
+      {
+        "role": "agent",
+        "content": "@160485 Okay. Can we have you try reinstalling the app? To do so, just follow the steps at https://t.co/EqisDMwZAT."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares i tried and it's still the same... moreover, my song history is always empty, so I can't find songs from previous Discover playlists :("
+      },
+      {
+        "role": "agent",
+        "content": "@160485 Does restarting your computer help at all? Also, is the song history you're referring to the History tab on your Play Queue? /MT"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares no, I tried that as well and just reinstalled again - didn't help. yes, that's what I mean."
+      },
+      {
+        "role": "agent",
+        "content": "@160485 Could you DM us your account's email address or username? We'll take a look backstage /MT https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "fce3b9b97cdcf8a8422d3c33991c857f",
+    "summary": "The customer is complaining that even after clicking the banner for 30 minutes of add free listening it doesn't work at all. The agent told them that they will pass to their devs so that they can look into it.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888 when you say click the banner for 30 minutes of ad free listening. Shouldn’t I get 30 minutes of ad free listening instead of 10?"
+      },
+      {
+        "role": "agent",
+        "content": "@495535 Hey Travis, that doesn't sound good! Did the app crash at any point during the 30 minutes? That can cause the ad-free time to reset /MC"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares No it did not. Continuous listening."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Also why does my girlfriends account go three or more songs between ads and mine usually one after being a long time premium account"
+      },
+      {
+        "role": "agent",
+        "content": "@495535 Thanks! Just to confirm, did you watch the video ad that grants you 30 minutes ad-free listening in full after hearing the offer? /MC"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Yes"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Spotify followed up by thanking me for watching the ad and then informing me that I could enjoy the next 30 minutes of ad free listening"
+      },
+      {
+        "role": "agent",
+        "content": "@495535 That's strange. We'll get this passed on to our devs so they can look into it. For now, give us a shout if you need anything else /MC"
+      }
+    ]
+  },
+  {
+    "conversation_id": "a399722e6dfd80ea892d8e63c559be66",
+    "summary": "Customer is complaining about Spotifycares not been played in background like other music apps. Agent updated the customer to restart the device and log back if then also issue not resolved please DM the account's username and email address.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888 why does Spotify close and not play in the background like other music apps ?"
+      },
+      {
+        "role": "agent",
+        "content": "@582650 Hey Ethan, that shouldn't be happening. What device, operating system, and Spotify version are you on? We'll see what we can suggest /AY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Galaxy s7 edge"
+      },
+      {
+        "role": "agent",
+        "content": "@582650 1: Thanks. Does logging out &gt; restarting your device &gt; logging back in help? It'd be great too if you could send us the exact..."
+      },
+      {
+        "role": "agent",
+        "content": "@582650 2: Android and Spotify versions this is happening on. We'll be on the lookout for your response /AY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Android version 7.0\nSpotify version: 8.4.25.771"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares This doesn't help, no"
+      },
+      {
+        "role": "agent",
+        "content": "@582650 Just to check, does it stop when you lock your screen, hit the home button, or both? Also, do you get lock-screen controls? /MU"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Nope the only thing that occurs is when I close the tab .."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I do get lock screen controls"
+      },
+      {
+        "role": "agent",
+        "content": "@582650 Can you DM us your account's username or email address? We'll check things backstage /MU https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "c3e8b2fa4d8c894786effb23e9b1c42a",
+    "summary": "Customer complaints that he is unable to play songs in his iPhone library. Agents informs customer to DM  his account username or email address.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares some of my songs in my library are not playing at all!! !"
+      },
+      {
+        "role": "agent",
+        "content": "@257826 Hey Kaylie! Just to check, are those songs grayed-out? Sending us your device, operating system, and Spotify app version would be handy too /PC"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares no they aren’t"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares i’m using an iphone 8"
+      },
+      {
+        "role": "agent",
+        "content": "@257826 Got it. Are you getting any specific error messages? If so, a screenshot would be super useful /PC"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares no, the song won’t play or it will stop exactly at 11 seconds within the song"
+      },
+      {
+        "role": "agent",
+        "content": "@257826 Hmm. Can you fire over the versions of your iOS and Spotify app? We'll see what we can suggest /PC"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares i don’t know what that means"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares it played until 11 seconds then it stopped and won’t play the rest of the song. https://t.co/6oXsWWfDX0"
+      },
+      {
+        "role": "agent",
+        "content": "@257826 No worries. Does this also happen when you use a different device? /PC"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares not sure"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares i’ve tried deleting the app and downloading again and nothing is working. this is very annoying &amp; has been happening a lot lately."
+      },
+      {
+        "role": "agent",
+        "content": "@257826 We're sorry to hear that. No worries, we'll help you out. Can you DM us your account's username or email address? /PC https://t.co/ldFdZRiNAt"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares i messaged you!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "2d482fb60f4a5bba769bf2b7e61c17b6",
+    "summary": "Here is complaining about app is not showing in  Spain  in particular country and wants better solution. Here agent ask proper location and assist her to make changes in settings and gives the better solution.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares any reason why your app is \"unavailable\" in Spain? https://t.co/M5M34BSswz"
+      },
+      {
+        "role": "agent",
+        "content": "@637766 Hi there! Can you tell us where in Spain you're located? We'll see what we can suggest /NH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I'm in Madrid"
+      },
+      {
+        "role": "agent",
+        "content": "@637766 Thanks! Do you have a VPN enabled? If so, try disabling it to see if it helps. Let us know how it goes /NH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Nope! No VPN"
+      },
+      {
+        "role": "agent",
+        "content": "@637766 Got it. Can you let us know what country your Google Account is set to? Also, is this the first time you're downloading the app? /NH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Looks like account country is set to Serbia. I'll see if I can change it right now"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Changed it and it works now. Thanks!"
+      },
+      {
+        "role": "agent",
+        "content": "@637766 No worries! We're glad we could help out. If you ever need anything else, just shout and we'll come running 🏃 /DF"
+      }
+    ]
+  },
+  {
+    "conversation_id": "37c9321dd970611f6cfc6527c756ed12",
+    "summary": "Customer  is facing issue as Spotify doesnt allow to listen to album. Agent request customer to DM his account email address and theywill take a look backstage.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Okay for some reason Spotify won't let me listen to the album. Really @SpotifyCares #meaningoflife https://t.co/zNdVSfX0Mc"
+      },
+      {
+        "role": "agent",
+        "content": "@426501 Hey! Help's here. What device, operating system, and Spotify version are you rocking? We'll see what we can suggest /RA"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I'm using a Chromebook. For some reason, this is what I keep getting when I try to start the album. https://t.co/nC0yqR0opV"
+      },
+      {
+        "role": "agent",
+        "content": "@426501 Got it! Could you try restarting your computer? Let us know how it goes /RA"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I tried and it didn't work. I even tried logging out of my account and back in and that still didn't work."
+      },
+      {
+        "role": "agent",
+        "content": "@426501 Hmm, that's odd. Could you try logging in using a different device and let us know if you're able to play the album? /RA"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I'm able to play it on my kindle fire with one problem."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares *no"
+      },
+      {
+        "role": "agent",
+        "content": "@426501 Can you DM us your account's email address? We'll take a look backstage /RA https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "c4d64666bbe5d180a37b5ebbaf87fb59",
+    "summary": "Coustomer is unable to create an account in Firefox , Chrome. Agent informed customer to DM  email address that he is trying to use.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Can't create an account. Firefox, Chrome, iPhone:  \"oops something went wrong\". I give up."
+      },
+      {
+        "role": "agent",
+        "content": "@169721 Hey Brandon! Can you try clearing your browser's cache/cookies? See if that helps /RH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Chrome reset to defaults gets an endless spinner. So does an Incognito window."
+      },
+      {
+        "role": "agent",
+        "content": "@169721 Alright. What country are you in? Have you also tried using a different device? That might do the trick /RH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares USA. The iPhone app says \"an unknown error has occurred.\" I also tried switching phone and laptop from wifi to a phone network. No change"
+      },
+      {
+        "role": "agent",
+        "content": "@169721 Could you send us a screenshot of the error message you're getting? We'll take a look /RH"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares  https://t.co/qLgtUiP9uW"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares On Firefox, it's simply the signup form with a spinner in the center. The browser console looks like this: https://t.co/JKnhOkvpxY"
+      },
+      {
+        "role": "agent",
+        "content": "@169721 Thanks for the screenshots. Could you also DM us the email address that you're trying to use? Let's carry on chatting there /RH https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "c7d1cb9ece3d89f313c29a30198246ea",
+    "summary": "Customer is asking about the regular features. Agent asks to support for the idea at :URL.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "Hi @SpotifyCares, any chance this may become a regular feature? I’d love for all my tunes to come on a set :) https://t.co/RbZgBm5Pe8"
+      },
+      {
+        "role": "agent",
+        "content": "@290314 1: Hi Aswin! You can actually do that now by adjusting the app's Crossfade settings. Check this out: https://t.co/mKMS0iCZE3."
+      },
+      {
+        "role": "agent",
+        "content": "@290314 2: also check out our party playlists' DJ-quality transitions. Just enter \"spotify:genre:party\" in the Search bar 🎈 /RR"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I’ve done this, but I can’t cross-fade beyond 12 seconds? Ideally I’d like to set it at 40-50 seconds. Is that customizable?"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Thanks but \n1)no drum n bass playlists\n2)doesn’t mix/cross-fade like the Stepping Out playlist \n😞"
+      },
+      {
+        "role": "agent",
+        "content": "@290314 We hear you! Make sure to show your support for the idea at https://t.co/UFmKVuzwKK."
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Thank you but I think this is the one I am voting for :) https://t.co/8z2o25Wcsh"
+      },
+      {
+        "role": "agent",
+        "content": "@290314 Awesome! Give us a shout if there's anything else. For now, https://t.co/M9DGmitf5G 🤘 /GT"
+      }
+    ]
+  },
+  {
+    "conversation_id": "361d6ddb96783e97fa64225c1950b60c",
+    "summary": "Customer having an issue with web player been stuck on this ad even  after refreshing,restart,re-log in and also try with different computer but the same issue. Agent updated the customer to clear all browser's cache and cookies and informed to try using private or incognito window ,Finally informed the customer to send account's email address or username via DM.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Webplayer been stuck on this ad even after refresh, restart, re-log in and trying on different computer, it's chrome on win 10 https://t.co/OOyAtWYkWi"
+      },
+      {
+        "role": "agent",
+        "content": "@210049 Hey, that doesn't look right. Can you try clearing your browser's cache and cookies? Let us know how it goes /JE"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Just did both and still stuck on that same southern comfort ad :("
+      },
+      {
+        "role": "agent",
+        "content": "@210049 Hmm, that's odd. Do you have the latest version of Chrome? If not, we'd suggest updating it. Keep us posted /JE"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares yes, in my about page it says up to day, specifically \"Version 61.0.3163.100 (Official Build) (64-bit)\" if that helps~"
+      },
+      {
+        "role": "agent",
+        "content": "@210049 Got it. Can you try accessing https://t.co/aT5o0wcN4V using a private or incognito window? Fingers crossed that'll do the trick /JE"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Just tried with an incognito and logs into the same issue, it's still stuck on southern comfort ad forever 😂, thanks for keeping up w/ this"
+      },
+      {
+        "role": "agent",
+        "content": "@210049 Sure, we're always here to help! If possible, can you check if the same thing happens when accessing https://t.co/aT5o0wcN4V on Firefox? /JE"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I don't have firefox but i did try it on Edge and it's the same issue, so it doesn't seem to be chrome specific"
+      },
+      {
+        "role": "agent",
+        "content": "@210049 In this case, can you send us your account's email address or username via DM? We'll carry on there /JE https://t.co/ldFdZRiNAt"
+      }
+    ]
+  },
+  {
+    "conversation_id": "8b7cb7fd1f0b0c707619f46e3d9e178a",
+    "summary": "Customer is complaining about the songs which is been mixed up. Agent asks to provide the details of device, operating system and version of spotify.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@SpotifyCares You guys mixed up songs. Breezeblocks by Alt-J has been replaced with their other song Fitzpleasure. Both play the same song!"
+      },
+      {
+        "role": "agent",
+        "content": "@124511 Hey Angie! Can you send us the Song Link? Just tap the three dots &gt; Share &gt; Copy Link. We'll check it out /SY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares https://t.co/s5wVyP2vKf labeled as Breezeblocks but is actually Fitzpleasure https://t.co/gpvecBA8UJ\nThanks so much!"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares https://t.co/tGbLK4aErF This is what Breezeblocks should sound like! Just to make your job easier."
+      },
+      {
+        "role": "agent",
+        "content": "@124511 Hmm, everything looks good on our end. Can you tell us the country that your account is set to? /SY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares I am listening from the United States and my account is set in the U.S. as well. Hope that helps."
+      },
+      {
+        "role": "agent",
+        "content": "@124511 1: That's odd. We've taken a closer look and the track plays the correct song. Can you tell us what device, operating system, and..."
+      },
+      {
+        "role": "agent",
+        "content": "@124511 2: version of Spotify you're using? We'll lend a hand /SY"
+      }
+    ]
+  },
+  {
+    "conversation_id": "13fddbc086427e1ffd41187dea0f8f95",
+    "summary": "The customer complaining that tom petty solo album was not start even after pressing the play button. The agent asked them to resync their tunes again.",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "@115888 Hey, why won't the Tom Petty solo albums/songs start when pressing play anymore? My Petty playlist is ruined. RUINED, I TELL YOU."
+      },
+      {
+        "role": "agent",
+        "content": "@558798 Hey! Help's here. Can you let us know what device, operating system, and Spotify version you're rocking? We'll see what we can suggest /RA"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Great, thanks: IPhone 6+ , IOS10.3.3 , Spotify version 8.4.22.515"
+      },
+      {
+        "role": "agent",
+        "content": "@558798 Got it! Could you send us a screenshot of the exact error message you're getting every time you try to play his tracks? /RA"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares No message, just doesn't respond when pressing the solo songs. They get skipped when playing the playlist. A license thing, perhaps? https://t.co/hKaSKu8c1n"
+      },
+      {
+        "role": "agent",
+        "content": "@558798 That's odd! Could you try restarting your device? Let us know how it goes /RA"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares Restart didn’t do anything."
+      },
+      {
+        "role": "agent",
+        "content": "@558798 1: Let's try a reinstall. The steps are here: https://t.co/EqisDMwZAT."
+      },
+      {
+        "role": "agent",
+        "content": "@558798 2: to resync your tunes again. Let us know how it plays out /NY"
+      },
+      {
+        "role": "customer",
+        "content": "@SpotifyCares A magic Spotify-fairie made it suddenly work again! Thanks for your efforts though. Let’s listen together, cheers :) https://t.co/1ITOlBERXR"
+      },
+      {
+        "role": "agent",
+        "content": "@558798 Awesome, that's what we like to hear! If you need us again, just... https://t.co/AUc7DGJpgF 😁 /NY"
+      }
+    ]
+  }
+]

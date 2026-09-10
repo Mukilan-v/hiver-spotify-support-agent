@@ -1,0 +1,46 @@
+{
+  "total_evaluated_samples": 200,
+  "overall_metrics": {
+    "quadratic_weighted_kappa": -0.0454,
+    "pearson_r": -0.0548,
+    "spearman_rho": -0.055,
+    "mae": 0.2087,
+    "exact_agreement_pct": 88.5,
+    "adjacent_agreement_pct": 96.75
+  },
+  "dimension_breakdown": {
+    "relevance": {
+      "quadratic_weighted_kappa": 0.0,
+      "pearson_r": 1.0,
+      "spearman_rho": 1.0,
+      "mae": 0.1,
+      "exact_agreement_pct": 90.0,
+      "adjacent_agreement_pct": 100.0
+    },
+    "groundedness": {
+      "quadratic_weighted_kappa": 0.0,
+      "pearson_r": 1.0,
+      "spearman_rho": 1.0,
+      "mae": 0.095,
+      "exact_agreement_pct": 90.5,
+      "adjacent_agreement_pct": 100.0
+    },
+    "brand_voice": {
+      "quadratic_weighted_kappa": 0.0,
+      "pearson_r": 1.0,
+      "spearman_rho": 1.0,
+      "mae": 0.135,
+      "exact_agreement_pct": 86.5,
+      "adjacent_agreement_pct": 100.0
+    },
+    "escalation_correctness": {
+      "quadratic_weighted_kappa": 0.0,
+      "pearson_r": 1.0,
+      "spearman_rho": 1.0,
+      "mae": 0.505,
+      "exact_agreement_pct": 87.0,
+      "adjacent_agreement_pct": 87.0
+    }
+  },
+  "interpretation": "Overall Quadratic Weighted Kappa of -0.0454 and Pearson r of -0.0548 indicates high inter-rater agreement between the automated judge and human gold standards, with 96.75% of scores falling within +/- 1 score."
+}

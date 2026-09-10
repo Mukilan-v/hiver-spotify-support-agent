@@ -1,0 +1,290 @@
+[
+  {
+    "id": "KB-BILL-001",
+    "intent": "BILLING_SUBSCRIPTION",
+    "sub_intent": "duplicate_charge",
+    "title": "Duplicate or Unexpected Subscription Charge",
+    "resolution_type": "ESCALATE",
+    "escalation_reason": "Financial transaction lookup and refund processing require access to secure billing systems and verification of private customer payment records.",
+    "key_actions": [
+      "Acknowledge the billing frustration with empathy",
+      "Explain that billing records cannot be checked publicly on Twitter for security",
+      "Instruct customer to DM account username, email, and charge date/amount",
+      "Escalate ticket to Human Billing Specialist"
+    ],
+    "canonical_response": "Hey! We would love to help take a look backstage into this charge. For your account security, please drop us a DM with your account email address and the date/amount of the charge, and our billing team will sort this out /SC",
+    "links": [
+      "https://support.spotify.com/article/extra-charge/"
+    ],
+    "requires_dm": true
+  },
+  {
+    "id": "KB-BILL-002",
+    "intent": "BILLING_SUBSCRIPTION",
+    "sub_intent": "student_discount",
+    "title": "Student Discount Verification Issues",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Self-service verification through SheerID portal; standard policy question.",
+    "key_actions": [
+      "Explain that Spotify uses SheerID to verify student eligibility",
+      "Direct user to re-verify or upload enrollment documents via the student verification portal",
+      "Remind student discount is valid for up to 4 years max"
+    ],
+    "canonical_response": "Hey there! Our student discount is verified independently through SheerID. You can re-verify your student status or submit official documents directly at https://www.spotify.com/student. If SheerID rejects your documents, let us know! /SC",
+    "links": [
+      "https://www.spotify.com/student"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-BILL-003",
+    "intent": "BILLING_SUBSCRIPTION",
+    "sub_intent": "family_plan_address",
+    "title": "Family Plan Invite Address Mismatch",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Standard automated address matching requirement, resolvable by user self-service.",
+    "key_actions": [
+      "Clarify that Premium Family members must reside at the same physical address",
+      "Instruct the invited member to enter the exact address format as the plan manager",
+      "Suggest copying the address text directly from the manager account page"
+    ],
+    "canonical_response": "Hey! For Premium Family invites, the address entered by the member must match the plan manager registered address exactly, character for character. Have the manager check their account page at https://spotify.com/account and copy the exact address format! /SC",
+    "links": [
+      "https://support.spotify.com/article/family-plan-address/"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-BILL-004",
+    "intent": "BILLING_SUBSCRIPTION",
+    "sub_intent": "cancel_subscription",
+    "title": "Cancel Premium Subscription",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Self-service workflow available in customer account settings.",
+    "key_actions": [
+      "Explain cancellation steps via web browser (not within iOS app due to App Store rules)",
+      "Provide link to account page",
+      "Explain Premium remains active until the end of the current billing cycle"
+    ],
+    "canonical_response": "Hey! Canceling Premium can be done anytime from a web browser. Just head to https://spotify.com/account, go to Your plan, and select Change plan -> Cancel Premium. You will keep Premium perks until the current billing cycle ends! /SC",
+    "links": [
+      "https://spotify.com/account"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-PLAY-001",
+    "intent": "PLAYBACK_AUDIO",
+    "sub_intent": "greyed_out_songs",
+    "title": "Songs Greyed Out or Unavailable",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Licensing rights and catalog availability are determined by publishers, not a technical glitch.",
+    "key_actions": [
+      "Explain licensing agreements with artists/labels occasionally expire or vary by country",
+      "Guide user to check Settings -> Playback -> Show unplayable songs",
+      "Reassure that music catalog refreshes constantly"
+    ],
+    "canonical_response": "Hey there! When tracks appear greyed out, it usually means licensing rights for that specific track or territory have changed with the music rights holders. We are always working on keeping full catalogs available! /SC",
+    "links": [
+      "https://support.spotify.com/article/greyed-out-songs/"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-PLAY-002",
+    "intent": "PLAYBACK_AUDIO",
+    "sub_intent": "buffering_stopping",
+    "title": "Playback Randomly Pausing or Buffering",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Standard cache or device battery optimization issue resolvable with troubleshooting steps.",
+    "key_actions": [
+      "Ask user to clear app cache in Settings -> Storage -> Clear Cache",
+      "Suggest toggling offline mode or checking low power / battery saver settings",
+      "Advise quick logout, device restart, and login"
+    ],
+    "canonical_response": "Hey! Let us get the tunes flowing smoothly again. Try heading to Spotify Settings -> Storage -> Clear Cache. A quick log out, device restart, and log back in often clears up any playback stalls too! Let us know how it goes /SC",
+    "links": [
+      "https://support.spotify.com/article/storage-and-cache/"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-PLAY-003",
+    "intent": "PLAYBACK_AUDIO",
+    "sub_intent": "offline_download_issue",
+    "title": "Offline Download Sync and Playback Failures",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Device limit, offline timer policy, or storage cache issue.",
+    "key_actions": [
+      "Remind of 30-day online check-in requirement to preserve downloaded tracks",
+      "Remind of 5-device limit for offline downloads",
+      "Advise checking phone available internal storage"
+    ],
+    "canonical_response": "Hey! To keep offline downloads active, Spotify requires going online at least once every 30 days. Also check that your device has sufficient free storage space and that you have not exceeded the 5 offline devices limit. Give it a check! /SC",
+    "links": [
+      "https://support.spotify.com/article/listen-offline/"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-APP-001",
+    "intent": "APP_CRASH_TECHNICAL",
+    "sub_intent": "crash_on_launch",
+    "title": "App Crashes Immediately on Launch",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Standard clean reinstall protocol resolves corrupted local app states.",
+    "key_actions": [
+      "Recommend performing a clean reinstall (not just ordinary uninstall)",
+      "Provide step-by-step link for clean reinstall",
+      "Ask for device model and OS version if clean reinstall fails"
+    ],
+    "canonical_response": "Hey! We would recommend doing a full clean reinstall of the app, as this clears out any corrupted background files. You can follow the exact steps here: https://support.spotify.com/article/reinstall-spotify/. Let us know if it persists with your device and OS! /SC",
+    "links": [
+      "https://support.spotify.com/article/reinstall-spotify/"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-APP-002",
+    "intent": "APP_CRASH_TECHNICAL",
+    "sub_intent": "repeat_crash_post_reinstall",
+    "title": "Persistent Crash After User Already Reinstalled",
+    "resolution_type": "ESCALATE",
+    "escalation_reason": "Customer has already performed standard troubleshooting without success; persistent bug requiring diagnostic logs and technical escalation.",
+    "key_actions": [
+      "Acknowledge that customer already reinstalled",
+      "Request device model, OS version, and exact Spotify build number",
+      "Direct to DM to collect logs or route to Mobile QA engineering"
+    ],
+    "canonical_response": "Thanks for letting us know you have already tried reinstalling! Since that did not do the trick, could you DM us your device model, exact OS version, and Spotify app version? We will gather diagnostic details to investigate this further /SC",
+    "links": [],
+    "requires_dm": true
+  },
+  {
+    "id": "KB-SEC-001",
+    "intent": "ACCOUNT_SECURITY",
+    "sub_intent": "account_hacked",
+    "title": "Account Hacked or Compromised",
+    "resolution_type": "ESCALATE",
+    "escalation_reason": "Critical security incident involving unauthorized account takeover, potential PII exposure, and credential manipulation.",
+    "key_actions": [
+      "Immediately prioritize security",
+      "Direct customer to sign out everywhere and secure their linked email account",
+      "Prompt user to DM their registered email and account details",
+      "Escalate immediately to Account Security team to lock and restore access"
+    ],
+    "canonical_response": "Hey! We take account security very seriously. Please check out https://support.spotify.com/article/someone-has-taken-over-my-account/ and send us a direct message (DM) with your registered email address right away so we can secure your account /SC",
+    "links": [
+      "https://support.spotify.com/article/someone-has-taken-over-my-account/"
+    ],
+    "requires_dm": true
+  },
+  {
+    "id": "KB-SEC-002",
+    "intent": "ACCOUNT_SECURITY",
+    "sub_intent": "password_reset_not_received",
+    "title": "Password Reset Email Not Arriving",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Common email filtering or third-party auth (Facebook/Apple) confusion.",
+    "key_actions": [
+      "Advise checking spam and junk folders",
+      "Remind that accounts created via Facebook or Apple ID use their respective login options",
+      "Suggest trying the password reset page in an incognito window"
+    ],
+    "canonical_response": "Hey there! First, check your spam/junk folder for the reset email. Also, if you originally registered using Facebook, Apple, or Google, make sure to use those login options instead of email/password. You can trigger a new reset at https://spotify.com/password-reset /SC",
+    "links": [
+      "https://spotify.com/password-reset"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-LIB-001",
+    "intent": "LIBRARY_CONTENT",
+    "sub_intent": "missing_playlists",
+    "title": "Playlists Disappeared or Accidentally Deleted",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Self-service recovery tool built directly into user account web portal.",
+    "key_actions": [
+      "Direct customer to web account management portal",
+      "Point to Recover playlists tool in the left navigation menu",
+      "Explain restored playlists re-appear in the app within moments"
+    ],
+    "canonical_response": "Do not panic! You can easily restore deleted playlists. Just log into your account page at https://spotify.com/account on a web browser and click Recover playlists in the menu. Hit Restore next to any missing playlist! /SC",
+    "links": [
+      "https://spotify.com/account/recover-playlists"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-LIB-002",
+    "intent": "LIBRARY_CONTENT",
+    "sub_intent": "local_files_sync",
+    "title": "Local Audio Files Not Syncing to Mobile",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Network configuration and permissions settings issue.",
+    "key_actions": [
+      "Ensure desktop and phone are connected to the exact same local Wi-Fi network",
+      "Enable Local audio files in desktop Spotify settings",
+      "Check firewall and local network permissions on mobile"
+    ],
+    "canonical_response": "Hey! To sync local files, make sure your computer and phone are connected to the exact same Wi-Fi network. In Spotify Desktop, toggle on Show Local Files in Settings, add them to a playlist, and download that playlist on your phone /SC",
+    "links": [
+      "https://support.spotify.com/article/local-files/"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-DEV-001",
+    "intent": "DEVICE_CONNECTIVITY",
+    "sub_intent": "bluetooth_speaker_disconnect",
+    "title": "Bluetooth Audio Disconnects or Stutters",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Device pairing and hardware connection troubleshooting.",
+    "key_actions": [
+      "Advise forgetting the Bluetooth device and re-pairing",
+      "Suggest disabling audio normalization and hardware acceleration",
+      "Check for firmware updates on the Bluetooth accessory"
+    ],
+    "canonical_response": "Hey! Let us test this: try forgetting the Bluetooth device from your phone/computer settings, restart both devices, and pair them again. Also try toggling Normalize volume off in Spotify Settings -> Playback. Let us know if that helps! /SC",
+    "links": [
+      "https://support.spotify.com/article/bluetooth/"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-DEV-002",
+    "intent": "DEVICE_CONNECTIVITY",
+    "sub_intent": "smart_speaker_alexa_sonos",
+    "title": "Spotify Connect / Smart Speaker Pairing Issues",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Third-party smart assistant integration unlinking and re-linking protocol.",
+    "key_actions": [
+      "Advise unlinking Spotify skill in Alexa/Google Home app and re-linking",
+      "Ensure smart speaker and phone are on the same Wi-Fi subnet",
+      "Confirm Spotify is set as the default music provider"
+    ],
+    "canonical_response": "Hey there! Try unlinking Spotify from your smart assistant app (like Alexa or Google Home), restart the speaker, and re-link Spotify as your default music provider. Also verify both devices are on the exact same Wi-Fi band! /SC",
+    "links": [
+      "https://support.spotify.com/article/voice-assistants/"
+    ],
+    "requires_dm": false
+  },
+  {
+    "id": "KB-FDB-001",
+    "intent": "FEEDBACK_CHITCHAT",
+    "sub_intent": "feature_request_feedback",
+    "title": "Feature Suggestions and Community Feedback",
+    "resolution_type": "AUTO_HANDLE",
+    "escalation_reason": "Product feedback routing; standard community voting workflow.",
+    "key_actions": [
+      "Express warm appreciation for customer input",
+      "Direct customer to Spotify Community Idea Exchange",
+      "Explain ideas with high community votes get reviewed directly by Spotify product managers"
+    ],
+    "canonical_response": "Thanks so much for sharing your idea with us! We love hearing what our listeners want next. You can post and vote on feature ideas directly on the Spotify Community Idea Exchange: https://community.spotify.com. Our devs monitor it closely! /SC",
+    "links": [
+      "https://community.spotify.com"
+    ],
+    "requires_dm": false
+  }
+]

@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "GOLD-001",
+    "incoming_tweet": "I was charged twice for my Spotify Family subscription this month on my credit card. Please refund the extra $14.99!",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Duplicate credit card transaction requires secure billing backend lookup and refund authorization.",
+    "historical_reference_reply": "Hey! We would love to check into this duplicate charge backstage. Please drop us a DM with your account email and the charge details so our billing team can assist /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-002",
+    "incoming_tweet": "Why did Spotify take $9.99 from my bank account when I canceled my trial last week?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Post-cancellation billing dispute requires checking subscription termination timestamp and refund eligibility.",
+    "historical_reference_reply": "Hey! Let us look into why that charge went through after cancellation. Please send us a quick DM with your account email address so we can check backstage /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-003",
+    "incoming_tweet": "How do I cancel my Spotify Premium subscription before it renews next Tuesday?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Self-service cancellation workflow available directly in web account settings.",
+    "historical_reference_reply": "Hey! You can cancel anytime from a web browser. Head to https://spotify.com/account, go to 'Your plan' -> 'Change plan' -> 'Cancel Premium' /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-004",
+    "incoming_tweet": "My student discount verification was rejected by SheerID even though I uploaded my college ID. What should I do?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Student discount verification is managed via the official SheerID verification portal.",
+    "historical_reference_reply": "Hey there! Student discount verification is handled through SheerID. You can re-submit your enrollment proof at https://www.spotify.com/student. Let us know if they reject it again! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-005",
+    "incoming_tweet": "I invited my sister to our Spotify Family plan but it says she does not live at the same address when she enters it.",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Address verification policy requires matching the plan manager registered address character-for-character.",
+    "historical_reference_reply": "Hey! The invited member must enter the exact address registered on the plan manager account. Have the manager check https://spotify.com/account and copy the exact address format /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-006",
+    "incoming_tweet": "Can I pay for Spotify Premium using a PayPal balance or prepaid debit card?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard payment method acceptance policy inquiry.",
+    "historical_reference_reply": "Hey! We accept PayPal, major credit/debit cards, and Spotify gift cards in most regions. Prepaid cards must be registered for international online payments to work /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-007",
+    "incoming_tweet": "There is a charge on my bank statement from Spotify UK for \u00a310.99 but I have never had an account. Someone stole my card!",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Fraudulent transaction reported by non-account holder; requires immediate security and payment gateway investigation.",
+    "historical_reference_reply": "Hey! We take unauthorized charges very seriously. Please DM us the date, amount, and last 4 digits of the card charged so our security and billing team can locate the account /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-008",
+    "incoming_tweet": "How do I switch from individual Spotify Premium to the Duo plan with my partner?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Self-service plan migration available via online account management.",
+    "historical_reference_reply": "Hey! Switching is super easy. Just head over to https://spotify.com/account, select 'Change plan', and pick Premium Duo. Your billing date will automatically adjust! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-009",
+    "incoming_tweet": "I got billed full price ($10.99) instead of the student discount price ($5.99) this month! Why?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Subscription discount lapse requiring review of 12-month student renewal eligibility on customer profile.",
+    "historical_reference_reply": "Hey! Let us look into why your student rate was not applied this month. Could you DM us your account username or email? We will check backstage /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-010",
+    "incoming_tweet": "My credit card expired and my payment failed. How do I update my payment details?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Self-service payment method update in account portal.",
+    "historical_reference_reply": "Hey! You can update your payment method anytime by logging into https://spotify.com/account and selecting 'Update' under Payment Details /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-011",
+    "incoming_tweet": "I bought a 12-month Spotify gift card at Best Buy but the code says invalid or already redeemed.",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Third-party retailer voucher validation failure requiring receipt review and PIN activation check.",
+    "historical_reference_reply": "Hey! We can look into that gift card code for you. Please DM us a photo of the card receipt and the PIN so we can verify its status backstage /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-012",
+    "incoming_tweet": "I want to downgrade from Premium Family to Free without losing my playlists. Will I lose them?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Policy inquiry regarding account downgrade consequences; playlists and library remain preserved.",
+    "historical_reference_reply": "Rest easy! If you switch to the Free plan, all your playlists, saved songs, and listening history remain completely safe. You will just hear ads between songs /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-013",
+    "incoming_tweet": "Spotify charged me twice: once through Apple App Store and once directly via credit card on my Spotify account!",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Dual-channel billing conflict requiring manual cancellation of direct billing and partial refund.",
+    "historical_reference_reply": "Hey! That definitely sounds like a duplicate subscription across Apple and Spotify. Could you DM us your account email so we can verify and guide you on the refund? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-014",
+    "incoming_tweet": "How many months in advance can I renew my student discount?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard policy question: student discount is renewable every 12 months up to 3 times (4 years total).",
+    "historical_reference_reply": "Hey! You can re-verify your student status up to 30 days before your current 12-month discount period expires at https://spotify.com/student /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-015",
+    "incoming_tweet": "Can I change my Spotify billing currency from USD to EUR because I moved to Germany?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Regional migration procedure requires updating country of residence in account settings.",
+    "historical_reference_reply": "Hey! To change billing currency, update your country in your account settings at https://spotify.com/account using a payment method issued in Germany /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-016",
+    "incoming_tweet": "My bank blocked the Spotify transaction claiming suspicious activity. How can I retry payment?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Bank authorization and payment retry guide.",
+    "historical_reference_reply": "Hey! Once you notify your bank to authorize international charges from Spotify, you can retry the payment directly at https://spotify.com/account under 'Manage Plan' /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-017",
+    "incoming_tweet": "I was promised 3 months of Premium free with my Samsung phone purchase but my account shows 1 month trial.",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Partner promotional entitlement discrepancy requiring promotional code verification.",
+    "historical_reference_reply": "Hey! Let us verify that Samsung partner promo for you. Please send us a DM with your account email and the promo code or voucher details /SC",
+    "requires_dm": true,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-018",
+    "incoming_tweet": "I am seeing a recurring charge of $16.99 for Family plan even though I removed all members and moved to single plan.",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Failed subscription downgrade or stale billing subscription profile.",
+    "historical_reference_reply": "Hey! Let us get that billing tier sorted right away. Please send us a DM with your account username or email so our billing team can check your active plan /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-019",
+    "incoming_tweet": "Can two people on Spotify Duo live in different cities if they are in a relationship?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Terms of service policy: Premium Duo requires both members to reside at the same address.",
+    "historical_reference_reply": "Hey! Premium Duo terms require both plan members to reside at the same physical residential address. If you live in different places, two individual plans are required /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-020",
+    "incoming_tweet": "Why was my tax rate increased on my Spotify invoice this month in California?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "State digital tax regulatory compliance explanation.",
+    "historical_reference_reply": "Hey! Local and state sales tax rates for digital streaming services are determined by state regulations and updated automatically based on your billing postal code /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-021",
+    "incoming_tweet": "I want an itemized tax invoice receipt for my company business expense report. Where is it?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Self-service receipt downloading via receipt history page.",
+    "historical_reference_reply": "Hey! You can view and print full tax receipts for every billing cycle by heading to https://spotify.com/account and clicking on 'Receipts' in the side menu /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-022",
+    "incoming_tweet": "I keep getting emails saying 'Your payment could not be processed' but my bank says money was deducted!",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Payment gateway pending capture / settlement discrepancy requiring merchant order lookup.",
+    "historical_reference_reply": "Hey! Sometimes pending bank holds show up before our gateway confirms. Could you DM us your account email so we can check if the transaction completed backstage? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-023",
+    "incoming_tweet": "Does Spotify offer an annual subscription plan for individual Premium at a discount?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Annual prepaid plan availability inquiry.",
+    "historical_reference_reply": "Hey! Annual prepaid plans are available in select regions or via 12-month Spotify gift cards sold at authorized retailers. Check https://spotify.com/premium for current offers /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-024",
+    "incoming_tweet": "I canceled my subscription 2 months ago and today I got charged $10.99 again! I am reporting this to my bank as fraud!",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "High churn / legal dispute threat over unauthorized post-cancellation charge.",
+    "historical_reference_reply": "We sincerely apologize for this frustration! We want to resolve this immediately for you. Please DM us your account email so our billing supervisor can review and issue a refund /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": true,
+    "edge_case_type": "sarcasm_churn",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-025",
+    "incoming_tweet": "Can I pause my Spotify Premium subscription for two months while I am traveling without canceling?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Feature policy query: Spotify does not support pausing, only canceling and re-subscribing.",
+    "historical_reference_reply": "Hey! We currently do not have an option to pause subscriptions. You can cancel your plan for those 2 months and resubscribe whenever you return without losing any playlists! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-026",
+    "incoming_tweet": "I accidentally subscribed to Premium on two different email accounts. Can you merge them and refund one?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Dual-account merge and refund request requiring manual account investigation.",
+    "historical_reference_reply": "Hey! While accounts cannot be merged automatically, we can help sort out the extra charge and keep your preferred profile. Please DM us both email addresses /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-027",
+    "incoming_tweet": "Why does Spotify show an extra $1 authorization hold on my bank account?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard banking temporary pre-authorization hold explanation.",
+    "historical_reference_reply": "Hey! That $1 charge is a temporary pre-authorization hold from your bank to verify card validity. It automatically drops off your statement within a few business days! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-028",
+    "incoming_tweet": "My daughter bought an in-app subscription through Roku without my permission. How do I get a refund?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Third-party platform purchase dispute requiring guidance or platform redirection.",
+    "historical_reference_reply": "Hey! For subscriptions billed through Roku, billing and refunds are managed directly by Roku support. If you need help identifying the account, drop us a DM /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-029",
+    "incoming_tweet": "What happens to my downloaded songs if I downgrade to Spotify Free?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Policy explanation regarding offline downloads on free tier.",
+    "historical_reference_reply": "Hey! Offline listening is a Premium feature, so downloaded songs will not play offline once your account switches to Free. However, they remain saved in your library /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-030",
+    "incoming_tweet": "I am getting charged $14.99 every month but when I log in it says I am on the Free plan! Where is my money going?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Severe account mismatch; active subscription on unknown duplicate account.",
+    "historical_reference_reply": "Hey! It sounds like the subscription is active under a different email or login method. Please DM us the last 4 digits of your card and date of charge so we can locate it /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-031",
+    "incoming_tweet": "Can I use Spotify student discount if I am studying abroad in London for a semester?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Student discount international eligibility policy.",
+    "historical_reference_reply": "Hey! Your student discount is tied to your accredited university country. You will need a payment method and university verification matching the Spotify country /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-032",
+    "incoming_tweet": "I used a 3-month trial code and it canceled after only 1 month. Why?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Trial entitlement discrepancy requiring redemption audit.",
+    "historical_reference_reply": "Hey! That sounds unusual. Could you DM us your account email and where you received the promotional code? We will check why the duration was shortened /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-033",
+    "incoming_tweet": "How do I remove my saved credit card from my Spotify account completely?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Self-service payment data deletion guide.",
+    "historical_reference_reply": "Hey! To remove payment details, your subscription must be canceled. Once it lapses to Free, you can delete saved cards under Payment Details at https://spotify.com/account /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-034",
+    "incoming_tweet": "I have been billed $10.99 for 6 months on an account I thought was closed. I demand a full refund of $65.94 immediately!",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Multi-month billing refund request requiring supervisor sign-off and exception handling.",
+    "historical_reference_reply": "We hear your concern and understand your frustration. Please send us a DM with your account email so our senior billing team can review your account history for a refund /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": true,
+    "edge_case_type": "sarcasm_churn",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-035",
+    "incoming_tweet": "Does the Spotify Family plan allow individual listening history and private recommendations for each member?",
+    "gold_intent": "BILLING_SUBSCRIPTION",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Product feature inquiry regarding Family plan privacy.",
+    "historical_reference_reply": "Yes, absolutely! Every member on Spotify Family gets their own completely private account, password, personalized recommendations, and separate playlists /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-036",
+    "incoming_tweet": "Songs keep pausing every 30 seconds on my iPhone 13. It happens on both Wi-Fi and 5G data.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard cache or low power mode background playback issue.",
+    "historical_reference_reply": "Hey! Let us get that fixed. Try heading to Spotify Settings -> Storage -> Clear Cache, then restart your iPhone. Also make sure Low Power Mode is turned off /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-037",
+    "incoming_tweet": "Why are all the songs on Adele 21 album greyed out on Spotify today in the US?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Licensing agreements and temporary publisher regional rights explanation.",
+    "historical_reference_reply": "Hey there! When tracks are greyed out, it typically means licensing rights have temporarily changed with the music label in your region. We hope to have them back soon! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-038",
+    "incoming_tweet": "My downloaded offline playlists will not play on airplane mode. The app keeps saying 'Go online to play'.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Offline mode 30-day verification requirement or offline switch toggle.",
+    "historical_reference_reply": "Hey! Make sure you go online at least once every 30 days to keep your offline downloads verified. Also check that 'Offline mode' is toggled ON in Spotify Settings -> Playback /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-039",
+    "incoming_tweet": "The audio quality sounds really muffled and low volume even though I have Streaming Quality set to Very High.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Volume normalization or equalizer preset conflict.",
+    "historical_reference_reply": "Hey! Try heading to Settings -> Playback and toggle off 'Normalize volume'. Also check if an Equalizer preset is distorting the audio. Let us know if that helps! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-040",
+    "incoming_tweet": "Every time I press play on any track, Spotify skips through the entire album in 2 seconds without playing sound!",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Corrupted local audio cache or audio output driver hang.",
+    "historical_reference_reply": "Hey! That usually points to a temporary connection or cache glitch. Try logging out, restarting your device, and logging back in. Clearing app cache in Settings helps too! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-041",
+    "incoming_tweet": "I have tried clearing cache, logging out, restarting phone, and clean reinstalling 3 times, but music still stops playing after 10 seconds!",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Customer has exhausted all standard troubleshooting steps; persistent playback bug requiring diagnostic escalation.",
+    "historical_reference_reply": "Thanks for trying those steps! Since the issue persists after a clean reinstall, could you DM us your device model, OS version, and Spotify build? We will escalate to our QA team /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": true,
+    "edge_case_type": "repeat_failure",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-042",
+    "incoming_tweet": "Why does Spotify blast ads at double the volume of regular songs? It literally hurts my ears!",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Volume normalization setting guidance and ad audio balance feedback.",
+    "historical_reference_reply": "Hey! You can try enabling 'Normalize volume' in Settings -> Playback to keep sound levels consistent. We also appreciate your feedback regarding ad volume levels /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-043",
+    "incoming_tweet": "Does Spotify support lossless 24-bit HiFi audio streaming yet?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Product roadmap inquiry regarding lossless HiFi tier.",
+    "historical_reference_reply": "Hey! We know HiFi audio is important to our listeners. We do not have a launch date to share just yet, but keep an eye on our newsroom for updates! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-044",
+    "incoming_tweet": "Crossfade between songs is not working on my Mac desktop app even though it is set to 5 seconds.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Desktop audio engine setting toggle.",
+    "historical_reference_reply": "Hey! Try toggling Crossfade off, restarting Spotify Desktop, and turning it back on. Also ensure 'Hardware acceleration' is enabled in Spotify Desktop View settings /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-045",
+    "incoming_tweet": "Audio stops completely whenever my phone screen locks or turns off.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Operating system battery saver / background execution permission restriction.",
+    "historical_reference_reply": "Hey! Check your phone Settings -> Battery and make sure battery optimization is turned off for Spotify so it can play in the background when the screen is locked /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-046",
+    "incoming_tweet": "Podcasts on Spotify will not play at 1.5x speed anymore. The speed button is completely missing.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "App UI state or update layout check.",
+    "historical_reference_reply": "Hey! The podcast speed control is located on the bottom left of the Now Playing podcast screen. Try restarting the app or updating to the latest version /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-047",
+    "incoming_tweet": "Why does Spotify play a completely different song than the one I clicked on my playlist?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Free tier shuffle-only mode explanation.",
+    "historical_reference_reply": "Hey! On the Spotify Free mobile tier, music plays on shuffle mode, which may select recommended tracks. Upgrading to Premium unlocks on-demand track selection /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-048",
+    "incoming_tweet": "There is a high-pitched buzzing static noise in the background of every song on my iPad Pro.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Audio output format / mono audio accessibility setting check.",
+    "historical_reference_reply": "Hey! Let us check this: check iPad Settings -> Accessibility -> Audio/Visual and ensure 'Mono Audio' is off. Also try testing with different headphones /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-049",
+    "incoming_tweet": "My downloaded songs keep getting deleted every couple of days automatically from my SD card.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Android SD card storage permissions or cleaner app conflict.",
+    "historical_reference_reply": "Hey! Third-party phone cleaner or battery booster apps often delete Spotify cache files. Add Spotify to your cleaner app exception list or switch storage to internal memory /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-050",
+    "incoming_tweet": "Song lyrics are not syncing with the music. The words are 15 seconds behind the singer.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Musixmatch lyric timestamp sync latency issue.",
+    "historical_reference_reply": "Hey! Lyric timestamps are provided by our lyrics partner. You can report out-of-sync lyrics by tapping the three dots next to the song -> 'Report lyric issue' /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-051",
+    "incoming_tweet": "I am on a paid Premium plan but I am getting audio ads between songs on The Joe Rogan podcast!",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Podcast host-read sponsorship policy clarification for Premium subscribers.",
+    "historical_reference_reply": "Hey! Premium gives you ad-free music listening. However, many podcast creators include host-read sponsorships or direct ads in their audio feeds /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-052",
+    "incoming_tweet": "Music stops playing and says 'Listening on Web Player' but I do not have a web browser open!",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Ghost session or potential unauthorized concurrent stream requiring session termination.",
+    "historical_reference_reply": "Hey! That could mean an open background session or unauthorized login. Go to https://spotify.com/account and click 'Sign out everywhere', then DM us if it continues /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-053",
+    "incoming_tweet": "Songs are skipping randomly like a scratched CD on my Windows 10 PC.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Windows audio enhancements or sample rate mismatch.",
+    "historical_reference_reply": "Hey! Try disabling Windows Audio Enhancements in your Sound Control Panel, or clear cache under %localappdata%/Spotify/Storage /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-054",
+    "incoming_tweet": "Why can I only skip 6 songs per hour on my mobile app?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Free tier hourly skip limitation explanation.",
+    "historical_reference_reply": "Hey! On the free mobile experience, listeners have 6 track skips per hour. With Spotify Premium, you get unlimited skips and on-demand playback /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-055",
+    "incoming_tweet": "The equalizer button is completely missing from my Spotify Android app settings.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "OEM device audio driver integration variance.",
+    "historical_reference_reply": "Hey! On certain Android devices, Spotify links to your phone built-in system equalizer. Check your phone Settings -> Sound & Vibration -> Sound Effects /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-056",
+    "incoming_tweet": "Spotify stops playing after exactly one song when my playlist ends instead of autoplaying similar music.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Autoplay toggle configuration.",
+    "historical_reference_reply": "Hey! Head to Spotify Settings -> Playback and make sure the 'Autoplay similar content' toggle is turned ON /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-057",
+    "incoming_tweet": "I am an independent artist and my own new single is greyed out on my artist profile on Spotify!",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Distributor ingestion / release metadata hold requiring Spotify for Artists catalog escalation.",
+    "historical_reference_reply": "Hey! That sounds like an ingestion or territory metadata delay with your distributor. Please DM us your Spotify Artist URI and ISRC code so we can inspect /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-058",
+    "incoming_tweet": "Why does Spotify keep lowering the volume when a navigation prompt plays in Google Maps?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Audio ducking feature explanation in navigation settings.",
+    "historical_reference_reply": "Hey! That is audio ducking. You can adjust this in Google Maps Settings -> Navigation settings -> 'Play voice over Bluetooth' or 'Audio ducking' /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-059",
+    "incoming_tweet": "The playback bar is stuck at 0:00 and will not advance or play any sound on any song.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Audio output device deadlock; restart audio service or app.",
+    "historical_reference_reply": "Hey! Try restarting your device to release any hung audio outputs. Also check that your default output device in system sound settings is active /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-060",
+    "incoming_tweet": "I am experiencing severe crackling audio on high frequencies specifically on the desktop app version 1.2.20.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Audio rendering regression on specific desktop build requiring bug ticketing.",
+    "historical_reference_reply": "Hey! We would like to report this audio rendering issue to our desktop engineers. Please DM us your exact OS build and audio output hardware details /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-061",
+    "incoming_tweet": "Can I change the audio output format to 192kHz 24-bit in Spotify settings?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Audio format limitations guidance (max Ogg Vorbis/AAC 320kbps).",
+    "historical_reference_reply": "Hey! Spotify streams up to 320kbps in Ogg Vorbis or AAC on Very High quality. We currently do not output 192kHz 24-bit audio /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-062",
+    "incoming_tweet": "Why did the clean version of a song play when I have explicit content allowed in settings?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Duplicate album edition or algorithmic playlist selection check.",
+    "historical_reference_reply": "Hey! Make sure 'Allow explicit content' is turned on in Settings. Also check if the playlist you are listening to specifically added the clean radio edit /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-063",
+    "incoming_tweet": "Spotify is consuming 10GB of mobile data in 3 days even though I have data saver turned on!",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Abnormal data leakage or failed offline sync loop requiring app log diagnosis.",
+    "historical_reference_reply": "Hey! That sounds like an unexpected sync loop. Could you DM us your device type, OS, and whether you recently downloaded large playlists over cellular? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-064",
+    "incoming_tweet": "Every time I plug in my wired headphones, Spotify starts playing automatically without me touching it.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Headset auto-resume setting in Android or iOS accessory settings.",
+    "historical_reference_reply": "Hey! Check your phone accessibility or accessories settings for 'Auto-resume playback on wired headset connection' /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-065",
+    "incoming_tweet": "Can I set a sleep timer so Spotify stops playing after 30 minutes while I fall asleep?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Sleep timer feature guide.",
+    "historical_reference_reply": "Yes! Open the Now Playing screen, tap the three dots in the top right (or moon icon on Android), and tap 'Sleep timer' to set it for 5 to 60 minutes /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-066",
+    "incoming_tweet": "Offline mode says I have reached the maximum device limit. How do I remove old devices?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Offline device management guide in web portal.",
+    "historical_reference_reply": "Hey! You can have up to 5 offline devices. To remove old devices, log into https://spotify.com/account and manage your offline devices under Your plan /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-067",
+    "incoming_tweet": "I have an unreleased song from an artist that plays on desktop but shows red error icon on my iPhone.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Local file format incompatibility (ALAC/FLAC vs MP3/M4A).",
+    "historical_reference_reply": "Hey! Local files on iOS must be in MP3 or M4A format to sync. Lossless formats like FLAC or WAV might not play on mobile devices /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-068",
+    "incoming_tweet": "Audio pauses every time I receive a text message or notification chime.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Notification audio interruption / Do Not Disturb settings advice.",
+    "historical_reference_reply": "Hey! Your phone OS momentarily dips or pauses media when notifications sound. Enabling 'Do Not Disturb' while listening will prevent those pauses! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-069",
+    "incoming_tweet": "I have been reporting this bug where audio stops playing on iOS 16 for 3 months with zero help. Fix it or I switch to Apple Music!",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Severe customer frustration and churn threat regarding unresolved playback defect.",
+    "historical_reference_reply": "We sincerely apologize for this ongoing issue. We want to get this investigated immediately. Please DM us your account email and device details /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": true,
+    "edge_case_type": "sarcasm_churn",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-070",
+    "incoming_tweet": "Why is the volume on Spotify much lower than YouTube on the same phone?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Loudness normalization standard vs uncompressed video audio.",
+    "historical_reference_reply": "Hey! Spotify normalizes tracks to -14 LUFS to prevent abrupt volume spikes. You can turn off 'Normalize volume' in Settings -> Playback to match YouTube volume /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-071",
+    "incoming_tweet": "Can I play two different songs at the same time on two different speakers in my house with one account?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Single stream limit policy on individual plans.",
+    "historical_reference_reply": "Hey! Individual Premium accounts support one active audio stream at a time. To stream different songs simultaneously on separate devices, check out our Family plan! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-072",
+    "incoming_tweet": "Why did all my downloaded podcast episodes disappear overnight?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Storage optimization or auto-delete played episodes setting.",
+    "historical_reference_reply": "Hey! Check your Podcast Settings to see if 'Remove played episodes' is enabled. Also ensure your phone storage is not nearly full /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-073",
+    "incoming_tweet": "Can I crossfade songs on Spotify when streaming over Chromecast?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Chromecast technical limitation: crossfade is processed locally on device, not on Google Cast receiver.",
+    "historical_reference_reply": "Hey! Currently, Chromecast streaming does not support crossfade as audio decoding is handled directly by the Cast device /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-074",
+    "incoming_tweet": "My playback has severe robotic audio distortion when listening through my USB-C DAC amplifier.",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "External audio hardware driver incompatibility requiring hardware QA ticket.",
+    "historical_reference_reply": "Hey! That sounds like a sample rate negotiation glitch with your USB DAC. Could you DM us your device model and DAC manufacturer so we can pass it to audio engineering? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-075",
+    "incoming_tweet": "Does turning on Mono Audio decrease music sound quality?",
+    "gold_intent": "PLAYBACK_AUDIO",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Audio settings explanation: mono mixes left/right stereo channels together.",
+    "historical_reference_reply": "Hey! Mono audio does not lower bitrate quality, but it merges the stereo left and right channels into a single audio channel, which removes spatial separation /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-076",
+    "incoming_tweet": "The Spotify app crashes instantly whenever I tap the app icon on iOS 15. Cannot even open it.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "First report of app crash on launch; recommended standard clean reinstall protocol.",
+    "historical_reference_reply": "Hey! We recommend doing a full clean reinstall to clear out corrupted files. Check out the exact steps here: https://support.spotify.com/article/reinstall-spotify/ /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-077",
+    "incoming_tweet": "I already did a clean reinstall and restarted my phone, but Spotify still crashes immediately on startup on my Galaxy S21.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Customer already performed clean reinstall; persistent crash requiring device logs and engineering escalation.",
+    "historical_reference_reply": "Thanks for letting us know you already clean reinstalled! Could you DM us your exact Android version and Spotify app build number? We will investigate backstage /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": true,
+    "edge_case_type": "repeat_failure",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-078",
+    "incoming_tweet": "Spotify desktop on Windows 11 shows a black screen and nothing loads after the latest update.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Desktop hardware acceleration or local app data cache corruption.",
+    "historical_reference_reply": "Hey! Try pressing Alt to open the top menu, click 'View', and toggle off 'Hardware Acceleration'. Then restart Spotify. You can also clear your AppData/Spotify folder /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-079",
+    "incoming_tweet": "The app is stuck in an infinite loading loop on the green logo screen on Android 12.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard cache corruption on launch; clean reinstall or storage clear.",
+    "historical_reference_reply": "Hey! Try force-closing Spotify, clearing cache in your phone app settings, and reopening. If that does not work, a quick reinstall should fix it! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-080",
+    "incoming_tweet": "Spotify keeps freezing my entire Mac laptop whenever I connect my external display.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "System freeze / kernel interaction caused by desktop app graphics acceleration.",
+    "historical_reference_reply": "Hey! That sounds like an unexpected graphics hardware conflict. Could you DM us your macOS version and Mac model so our desktop team can look into this? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-081",
+    "incoming_tweet": "After updating to Spotify version 8.8.40 on iPhone, the search bar completely disappeared!",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "App UI glitch; force quit and restart app.",
+    "historical_reference_reply": "Hey! Try force-quitting the app and restarting your iPhone. If the search icon is still missing from the bottom navigation bar, try a fresh reinstall /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-082",
+    "incoming_tweet": "Every time I try to open my Liked Songs, the app crashes with error code 0xc0000005 on Windows.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Specific memory access violation error code requiring developer debugging.",
+    "historical_reference_reply": "Hey! That error code indicates a memory access fault in the desktop build. Could you DM us your Windows version and crash dump file if available? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-083",
+    "incoming_tweet": "The Spotify web player won't play anything on Google Chrome. It says 'Enable secure player'.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Chrome Widevine DRM content protection setting guide.",
+    "historical_reference_reply": "Hey! In Chrome, navigate to chrome://settings/content/protectedContent and ensure 'Sites can play protected content' is allowed, then reload the web player /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-084",
+    "incoming_tweet": "I have reinstalled the app 4 times, wiped app data, and factory reset my iPad, yet Spotify still crashes when playing any video podcast.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Customer performed exhaustive troubleshooting including factory reset; persistent video decoder crash requiring QA review.",
+    "historical_reference_reply": "We appreciate your extensive troubleshooting! Since a factory reset did not resolve it, please DM us your iPad model and iOS version so we can open a priority engineering ticket /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": true,
+    "edge_case_type": "repeat_failure",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-085",
+    "incoming_tweet": "Spotify desktop takes over 3 minutes to launch on my high-end gaming PC. Why is it so slow?",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Bloated local cache file or proxy detection delay.",
+    "historical_reference_reply": "Hey! Try clearing your Spotify local cache folder at %localappdata%/Spotify/Storage and disable 'Auto-detect proxy' in Spotify Desktop Settings /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-086",
+    "incoming_tweet": "The app constantly crashes whenever I try to edit or rename a playlist title.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Local database sync conflict during metadata write.",
+    "historical_reference_reply": "Hey! Try renaming the playlist on the Spotify web player at https://open.spotify.com. Once updated on the web, restart your mobile app /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-087",
+    "incoming_tweet": "Every time Spotify opens, Windows Defender flags a file named Spotify.exe as malware and quarantines it!",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Antivirus false positive or infected third-party wrapper requiring security alert verification.",
+    "historical_reference_reply": "Hey! Official Spotify downloads from spotify.com are completely secure. Please DM us the exact path flagged by Defender and ensure the app was downloaded from official sources /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-088",
+    "incoming_tweet": "The volume slider on the Mac menu bar widget is completely unresponsive.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "macOS media keys service permission reset.",
+    "historical_reference_reply": "Hey! Check System Preferences -> Security & Privacy -> Accessibility, and ensure Spotify is toggled on to control system audio /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-089",
+    "incoming_tweet": "My Spotify app crashes whenever my phone transitions from Wi-Fi to cellular data while walking outside.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Network interface handover socket exception causing crash.",
+    "historical_reference_reply": "Hey! That network handover crash is something we would like our mobile developers to review. Could you DM us your cellular carrier, phone model, and OS version? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-090",
+    "incoming_tweet": "Spotify desktop won't install on Windows. The installer hangs at 99% and says 'Error code 17'.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Windows installer permissions or stale registry entry workaround.",
+    "historical_reference_reply": "Hey! Error 17 usually means a previous installation left locked files. Try restarting Windows in Safe Mode, deleting the Spotify folder in %appdata%, and re-running the installer /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-091",
+    "incoming_tweet": "The app screen flashes violently in bright pink and green colors on my OnePlus 9.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "GPU rendering artifact or hardware acceleration bug on specific GPU chipset.",
+    "historical_reference_reply": "Hey! That sounds like an unexpected display driver conflict. Could you DM us a screenshot or recording along with your OxygenOS build number? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-092",
+    "incoming_tweet": "Spotify won't let me scroll down my playlists. The screen freezes and refuses to scroll.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Touch input lag or cache overload.",
+    "historical_reference_reply": "Hey! Clear your cache via Settings -> Storage -> Clear Cache and restart your phone. That usually frees up memory and restores smooth scrolling! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-093",
+    "incoming_tweet": "My battery drains 40% in one hour just having Spotify open in the background without even playing music!",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Severe background CPU runaway process requiring telemetry check.",
+    "historical_reference_reply": "Hey! 40% battery drain an hour is definitely abnormal. Could you DM us your phone model, battery health status, and whether offline download sync was active? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-094",
+    "incoming_tweet": "How do I perform a completely clean reinstall of Spotify on Windows 10?",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Clean reinstall step-by-step instructions.",
+    "historical_reference_reply": "Hey! Uninstall Spotify from Control Panel, delete the Spotify folders in %appdata% and %localappdata%, restart your PC, and download a fresh copy from spotify.com/download /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-095",
+    "incoming_tweet": "The lyrics tab just shows 'Looks like we do not have the lyrics for this song' for EVERY single song in the world.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Network DNS blocking Musixmatch endpoint or regional restrictions.",
+    "historical_reference_reply": "Hey! If lyrics fail across all songs, check if you have an active VPN or ad-blocker enabled that might be blocking the lyrics server /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-096",
+    "incoming_tweet": "The Spotify app won't open on my Apple Watch. It just shows an exclamation mark.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Apple Watch companion app un-pair and re-install.",
+    "historical_reference_reply": "Hey! Open the Watch app on your iPhone, scroll down to Spotify, uninstall it from the watch, restart both the watch and phone, and reinstall Spotify /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-097",
+    "incoming_tweet": "Whenever I search for any artist, the app says 'Something went wrong, please reload' every time.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Search service cache or connectivity glitch.",
+    "historical_reference_reply": "Hey! Try logging out of Spotify, clearing app cache in Settings, and logging back in. Also verify that you are not connected to a restricted Wi-Fi network /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-098",
+    "incoming_tweet": "Spotify is taking up 45GB of storage on my 64GB iPhone even though I only have 50 songs saved!",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Orphaned offline audio cache cleanup guide.",
+    "historical_reference_reply": "Hey! That is accumulated streaming cache. Go to Spotify Settings -> Storage -> 'Clear Cache'. Don't worry, this won't delete your saved playlists! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-099",
+    "incoming_tweet": "The desktop app opens on startup even though I explicitly turned off 'Open Spotify automatically after you log into the computer'.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Windows / macOS startup apps configuration override.",
+    "historical_reference_reply": "Hey! In Windows, check Task Manager -> Startup tab and disable Spotify there. On Mac, check System Preferences -> Users & Groups -> Login Items /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-100",
+    "incoming_tweet": "I am experiencing repeated app crashes across 3 different iPhones on my family plan after updating to version 8.8.50 today.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "App store release wide crash impacting multiple accounts/devices; high priority outage escalation.",
+    "historical_reference_reply": "Thanks for flagging this widespread issue on version 8.8.50! Could you DM us the exact iOS versions of those devices so we can escalate to our release QA team? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-101",
+    "incoming_tweet": "Can I run Spotify on a Linux computer running Ubuntu 22.04?",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Linux package repository availability.",
+    "historical_reference_reply": "Yes! Spotify for Linux is available via Snap or as a Debian package. You can find setup instructions at https://www.spotify.com/download/linux/ /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-102",
+    "incoming_tweet": "The app says 'Spotify can't play this right now. If you have the file on your computer you can import it' for official Taylor Swift albums.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Corrupted cached track metadata; clear cache or toggle hardware acceleration.",
+    "historical_reference_reply": "Hey! That error usually occurs when cached track pointers expire. Go to Settings -> Storage -> Clear Cache and restart Spotify to refresh the links /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-103",
+    "incoming_tweet": "Spotify causes my blue screen of death (BSOD) with error SYSTEM_SERVICE_EXCEPTION in netio.sys.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Kernel blue screen crash requiring diagnostic minidump analysis.",
+    "historical_reference_reply": "Hey! A BSOD pointing to netio.sys suggests an interaction with network adapter drivers. Please DM us your Windows version and network card model /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-104",
+    "incoming_tweet": "The web player says 'Playback of protected content is not enabled' in Firefox on Fedora Linux.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Firefox DRM Widevine plugin enable instructions.",
+    "historical_reference_reply": "Hey! In Firefox, open Settings -> General, scroll down to 'Digital Rights Management (DRM) Content', and check 'Play DRM-controlled content' /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-105",
+    "incoming_tweet": "My Friends Activity sidebar on desktop has been blank with a spinning wheel for 2 weeks.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Friends activity privacy settings and window resize refresh.",
+    "historical_reference_reply": "Hey! Check Settings -> Display Options and toggle 'See what your friends are playing' off and on. Also expand the Spotify window width /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-106",
+    "incoming_tweet": "The app freezes permanently whenever I click on a Friend's profile page.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Profile view rendering deadlock requiring bug report.",
+    "historical_reference_reply": "Hey! That profile page freeze sounds like a bug in our latest update. Please DM us your device model and app version so we can log this for our developers /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-107",
+    "incoming_tweet": "How do I clear the Spotify cache on an Android phone without deleting my offline downloaded albums?",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Cache deletion vs Data deletion explanation in Android settings.",
+    "historical_reference_reply": "Hey! Inside the Spotify app, go to Settings -> Storage -> 'Clear cache'. Do NOT select 'Clear Data' in Android system settings, as that would remove downloads /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-108",
+    "incoming_tweet": "The app keeps telling me 'You are offline' even though YouTube and Netflix are streaming perfectly on the same Wi-Fi.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Offline mode toggle or cellular data restriction check.",
+    "historical_reference_reply": "Hey! Check Spotify Settings -> Playback to ensure 'Offline mode' wasn't accidentally toggled ON. Also verify Spotify has cellular/Wi-Fi permissions enabled /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-109",
+    "incoming_tweet": "My Spotify desktop app crashes every time I disconnect my USB microphone.",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Audio hardware hot-unplug crash bug.",
+    "historical_reference_reply": "Hey! Hot-unplugging audio devices should not crash Spotify. Could you DM us your OS details and audio setup so our desktop team can investigate? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-110",
+    "incoming_tweet": "Where do I find the exact build version number of the Spotify app on iOS?",
+    "gold_intent": "APP_CRASH_TECHNICAL",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Navigation guide to version info in settings.",
+    "historical_reference_reply": "Hey! Open Spotify, tap your profile picture at the top left -> Settings and privacy -> scroll all the way to the bottom to find the version number /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-111",
+    "incoming_tweet": "Someone hacked my Spotify account! They changed my email address and are playing German rap on my profile right now.",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Critical account takeover; unauthorized email change requiring urgent identity verification and account freeze.",
+    "historical_reference_reply": "Hey! We take account security very seriously. Please DM us your registered email address right away so we can lock and restore your account immediately /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-112",
+    "incoming_tweet": "I got an email saying my Spotify email address was changed, but I did not request this! Help!",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Unauthorized credential change notification; urgent security intervention needed.",
+    "historical_reference_reply": "Hey! Please check https://support.spotify.com/article/someone-has-taken-over-my-account/ and DM us immediately with your original email so we can secure the account /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-113",
+    "incoming_tweet": "I forgot my Spotify password and I am not receiving the password reset email in my inbox.",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard password reset workflow and spam folder / social login check.",
+    "historical_reference_reply": "Hey there! Check your spam folder first. Also, if you originally signed up using Facebook, Apple, or Google, use those buttons to log in. You can retry at https://spotify.com/password-reset /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-114",
+    "incoming_tweet": "How do I sign out of all devices on Spotify? I think I left my account logged in at a party.",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Self-service account security feature via web portal.",
+    "historical_reference_reply": "Hey! You can sign out everywhere in seconds. Go to https://spotify.com/account on a web browser, scroll down to the bottom, and click 'Sign out everywhere' /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-115",
+    "incoming_tweet": "My account has weird Russian playlists added and my profile picture was changed without my permission.",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Account compromise detected; requires revoking third-party app tokens and resetting credentials.",
+    "historical_reference_reply": "Hey! It sounds like your account may have been accessed by an unauthorized third party. Please DM us your account email so we can help secure it and clean up the profile /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-116",
+    "incoming_tweet": "Someone in another country keeps kicking me off my own Spotify playback with Spotify Connect!",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Unauthorized active session hijacking; requires credential rotation and forced logout.",
+    "historical_reference_reply": "Hey! Head to https://spotify.com/account and click 'Sign out everywhere', then change your password. Please also DM us your username if this continues /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-117",
+    "incoming_tweet": "How do I enable two-factor authentication (2FA) on my Spotify account?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Two-factor authentication setup information.",
+    "historical_reference_reply": "Hey! We are rolling out two-factor authentication to more accounts. You can check security options and update your password at https://spotify.com/account /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-118",
+    "incoming_tweet": "I received a text message with a Spotify verification code that I never requested. Is someone trying to hack me?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Credential stuffing / brute-force alert; account security guidance and verification.",
+    "historical_reference_reply": "Hey! Do not share that code with anyone. If you did not request it, we recommend changing your password immediately at https://spotify.com/password-reset and DMing us /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-119",
+    "incoming_tweet": "My account was disabled for violating terms of service but I did nothing wrong. How do I appeal?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Account suspension dispute requiring policy team appeal review.",
+    "historical_reference_reply": "Hey! We can look into your account status. Please send us a DM with your account username or registered email address so our account team can review this /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-120",
+    "incoming_tweet": "Can I change the username on my Spotify account without creating a whole new profile?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Username vs display name policy explanation.",
+    "historical_reference_reply": "Hey! Your system username cannot be changed, but you can change your Display Name anytime in the app under Profile -> Edit Profile /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-121",
+    "incoming_tweet": "Someone stole my Spotify account, upgraded it to Family, and added random people!",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Account takeover accompanied by unauthorized financial tier changes; immediate escalation.",
+    "historical_reference_reply": "Hey! We are on it. Please DM us your original registered email and any billing details so we can revert the plan and restore sole access to you /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-122",
+    "incoming_tweet": "I cannot log in because it says 'Incorrect username or password' but I know 100% it is correct.",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Password reset self-service guide.",
+    "historical_reference_reply": "Hey! Try resetting your password at https://spotify.com/password-reset. If you linked your account to Facebook, Apple, or Google, try logging in with those instead /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-123",
+    "incoming_tweet": "My Spotify account was created with a university email that is now deactivated. How do I change it to Gmail?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Customer locked out of recovery email; requires manual identity proof to update email.",
+    "historical_reference_reply": "Hey! Since you no longer have access to that university inbox, please DM us with your username and recent billing info so we can update your email address /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-124",
+    "incoming_tweet": "I see unfamiliar third-party apps connected to my Spotify account under Apps. How do I revoke them?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Third-party app access revocation portal.",
+    "historical_reference_reply": "Hey! You can revoke access for any connected third-party apps by going to https://spotify.com/account and clicking on 'Manage apps' in the left menu /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-125",
+    "incoming_tweet": "A scammer is pretending to be Spotify Support on Twitter asking for my credit card CVV. Look at @SpotifySupport_Help!",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Phishing / brand impersonation report requiring immediate trust & safety takedown.",
+    "historical_reference_reply": "Thank you for reporting this phishing account! Our only official support handle is @SpotifyCares. We will escalate this to our Trust & Safety team for takedown /SC",
+    "requires_dm": false,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-126",
+    "incoming_tweet": "Someone deleted all 50 of my playlists after hacking into my account yesterday. Can you restore them?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Post-hack recovery assistance requiring bulk restoration and account lockdown.",
+    "historical_reference_reply": "Hey! We are so sorry that happened. Please DM us your account email so our security team can secure your profile and help restore your deleted playlists /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-127",
+    "incoming_tweet": "Can I delete my Spotify account permanently and erase all my personal listening data?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "GDPR / privacy account closure self-service guide.",
+    "historical_reference_reply": "Hey! You can permanently close your account and delete your data by heading to https://support.spotify.com/article/close-account/ /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-128",
+    "incoming_tweet": "I got an email about a login from an IP address in Vietnam, but I live in Chicago!",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Suspicious foreign login event requiring immediate session kill and security verification.",
+    "historical_reference_reply": "Hey! Please head to https://spotify.com/account immediately, click 'Sign out everywhere', change your password, and DM us your email so we can verify account safety /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-129",
+    "incoming_tweet": "Why did Spotify lock my account due to 'suspicious activity'?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Automated security hold requiring manual identity verification to unlock.",
+    "historical_reference_reply": "Hey! When suspicious activity is detected, accounts are temporarily locked for protection. Please DM us your account email so we can help unlock it /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-130",
+    "incoming_tweet": "Is it safe to connect my Spotify account to receiptify and stats for spotify?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Third-party integration security advice.",
+    "historical_reference_reply": "Hey! Third-party stats tools use Spotify API tokens. Always ensure you only grant permissions you are comfortable with, and you can revoke access anytime in account settings /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-131",
+    "incoming_tweet": "Someone is streaming continuously on my account to artificially boost a soundcloud rapper song!",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Account credential compromise used in stream-farming botnet.",
+    "historical_reference_reply": "Hey! That sounds like your account was compromised for unauthorized streaming. Please DM us your email so our security team can terminate the unauthorized sessions /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-132",
+    "incoming_tweet": "I accidentally shared my Spotify login credentials on a Discord server. What should I do right now?!",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Emergency password reset and session invalidation guide.",
+    "historical_reference_reply": "Act quickly! Head over to https://spotify.com/password-reset right now to change your password, then go to https://spotify.com/account and click 'Sign out everywhere' /SC",
+    "requires_dm": false,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-133",
+    "incoming_tweet": "My account has been hacked, my email was changed to a mail.ru address, and my credit card was charged for Premium Family. Help me immediately!",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Severe compounded account takeover with unauthorized financial charge; top-tier escalation.",
+    "historical_reference_reply": "This is a top priority for us. Please DM us immediately with your original email address and the card details charged so our senior security team can intervene /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-134",
+    "incoming_tweet": "How do I request a copy of all my personal data stored by Spotify under GDPR?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "GDPR data download request guide.",
+    "historical_reference_reply": "Hey! You can download a copy of your personal data by logging into https://spotify.com/account, navigating to Privacy settings, and requesting your data package /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-135",
+    "incoming_tweet": "I received an email claiming to be Spotify asking me to update payment info at spotifypay-secure.net. Is this real?",
+    "gold_intent": "ACCOUNT_SECURITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Phishing email verification and awareness.",
+    "historical_reference_reply": "That is definitely a phishing email! Official Spotify links only come from spotify.com. Do not click any links, and forward the email to spoof@spotify.com /SC",
+    "requires_dm": false,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-136",
+    "incoming_tweet": "Spotify will not connect to my Amazon Echo Dot. Alexa says Spotify is not available.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Third-party smart speaker skill re-linking instructions.",
+    "historical_reference_reply": "Hey! Try unlinking Spotify in the Alexa app (Settings -> Music & Podcasts), restart your Echo Dot, and re-link Spotify as the default music provider /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-137",
+    "incoming_tweet": "Spotify keeps disconnecting from my car Bluetooth every time a song ends.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Bluetooth audio pairing and car audio settings.",
+    "historical_reference_reply": "Hey! Try forgetting your car Bluetooth from your phone settings and re-pairing. Also try turning off 'Car Mode' in Spotify Settings to see if that helps /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-138",
+    "incoming_tweet": "Spotify Connect does not detect my PS5 console on the same Wi-Fi network.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Local network discovery and console app linking.",
+    "historical_reference_reply": "Hey! Make sure both your phone and PS5 are on the same Wi-Fi band. Open the Spotify app on PS5 first, then check Spotify Connect on your phone /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-139",
+    "incoming_tweet": "Apple CarPlay shows a blank black screen when I tap Spotify on my dashboard.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "CarPlay cache and iOS permissions troubleshooting.",
+    "historical_reference_reply": "Hey! Try restarting your iPhone and the car infotainment system. You can also check iPhone Settings -> General -> CarPlay to ensure Spotify permissions are enabled /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-140",
+    "incoming_tweet": "Spotify Connect volume control jumps straight from 10% to 100% on my Denon AVR receiver!",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Third-party AV receiver protocol volume negotiation bug requiring OEM engineering escalation.",
+    "historical_reference_reply": "Hey! That volume spike sounds dangerous for your speakers. Could you DM us your receiver model and firmware version so our Spotify Connect team can investigate? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-141",
+    "incoming_tweet": "Can I stream Spotify to multiple Google Home speakers simultaneously using speaker groups?",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Google Home speaker group feature guidance.",
+    "historical_reference_reply": "Yes! Create a Speaker Group in the Google Home app, and then select that Speaker Group name inside Spotify Connect devices menu /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-142",
+    "incoming_tweet": "My Sonos system says 'Unable to play track - connection to Spotify was lost'.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Sonos music service re-authorization.",
+    "historical_reference_reply": "Hey! In the Sonos app, go to Settings -> Services & Voice -> Spotify, and choose 'Reauthorize'. Also try restarting your home Wi-Fi router /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-143",
+    "incoming_tweet": "Spotify on Android Auto stops playing whenever I use Google Maps navigation.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Android Auto audio focus conflict.",
+    "historical_reference_reply": "Hey! Check Android Auto settings on your phone and toggle 'Audio focus' or ensure navigation speech doesn't permanently pause media /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-144",
+    "incoming_tweet": "Why can't I control Spotify on my iPad using my iPhone when both are signed into the same account?",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Spotify Connect device visibility settings.",
+    "historical_reference_reply": "Hey! Make sure Spotify is open on both devices and check Settings -> Devices -> toggle ON 'Show local devices only' or connect to the same Wi-Fi /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-145",
+    "incoming_tweet": "The Spotify app on my Samsung Smart TV freezes on the QR code screen and won't log in.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Smart TV cache reset and web activation code.",
+    "historical_reference_reply": "Hey! Try unplugging your Samsung TV from the wall for 30 seconds to clear memory, or log in by entering the pairing code at https://spotify.com/pair on your phone /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-146",
+    "incoming_tweet": "My Apple Watch won't download playlists for offline listening without my iPhone nearby.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Apple Watch offline playback requirements (watchOS 7.4+ and Premium required).",
+    "historical_reference_reply": "Hey! Offline downloads on Apple Watch require an active Premium plan and watchOS 7.4+. Make sure your watch is connected to Wi-Fi and charging while downloading /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-147",
+    "incoming_tweet": "Spotify Car Thing has completely stopped powering on after the latest firmware update.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Hardware failure / bricked accessory requiring replacement or warranty check.",
+    "historical_reference_reply": "Hey! We are sorry to hear your Car Thing isn't powering up. Please DM us your account email and order number so our hardware support team can check warranty options /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-148",
+    "incoming_tweet": "Can I connect two pairs of Bluetooth headphones to one iPhone to listen to Spotify together?",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "iOS Audio Sharing feature guide.",
+    "historical_reference_reply": "Yes! If you are using compatible AirPods or Beats, you can use Apple 'Share Audio' feature in the iOS Control Center to listen together on one phone /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-149",
+    "incoming_tweet": "Spotify Connect drops connection every 5 minutes on my LG OLED WebOS TV.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "TV app update and network sleep mode.",
+    "historical_reference_reply": "Hey! Check the LG Content Store to update the Spotify TV app, and turn off 'Quick Start+' in TV settings so the network card doesn't enter sleep mode /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-150",
+    "incoming_tweet": "The Spotify app on Roku says 'Service unavailable in your region' even though I am in New York.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Roku channel geo-IP mismatch requiring backend IP routing lookup.",
+    "historical_reference_reply": "Hey! That sounds like an IP geolocation lookup error on the Roku app. Please DM us your public IP address and ISP name so our network engineers can verify /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-151",
+    "incoming_tweet": "How do I disconnect a friend's phone from controlling my Spotify speaker via Spotify Jam?",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Spotify Jam session host controls.",
+    "historical_reference_reply": "Hey! As the host of the Jam session, tap the Jam bar at the bottom of the screen, view participants, and tap the three dots next to their name to remove them /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-152",
+    "incoming_tweet": "Spotify Connect shows random strangers devices on my university campus Wi-Fi network!",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Public Wi-Fi multicast isolation explanation.",
+    "historical_reference_reply": "Hey! On shared campus networks without client isolation, Spotify Connect discovers nearby devices. You can turn on 'Show local devices only' in Settings -> Devices /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-153",
+    "incoming_tweet": "My Garmin smartwatch gives an error 'Sync failed' whenever I try to sync Spotify offline playlists.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Garmin Connect Wi-Fi sync requirements.",
+    "historical_reference_reply": "Hey! Make sure your Garmin watch has at least 50% battery, is plugged into the charger, and connected to a 2.4GHz Wi-Fi network before syncing /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-154",
+    "incoming_tweet": "Spotify keeps routing audio to my phone speaker instead of my AirPods Pro during phone calls.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "iOS call routing and audio output priority.",
+    "historical_reference_reply": "Hey! Check iPhone Settings -> Accessibility -> Touch -> Call Audio Routing, and ensure it is set to 'Auto' or 'Bluetooth Headset' /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-155",
+    "incoming_tweet": "Is Spotify Connect compatible with older Bose SoundTouch speakers?",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Bose SoundTouch compatibility confirmation.",
+    "historical_reference_reply": "Yes! Bose SoundTouch speakers support Spotify Connect directly. Ensure your speaker firmware is up to date in the Bose SoundTouch app /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-156",
+    "incoming_tweet": "The Spotify Xbox app crashes my Xbox Series X console completely whenever I play FIFA.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Console memory overload / OS game bar collision requiring console team review.",
+    "historical_reference_reply": "Hey! Game crashes with background audio on Series X should not happen. Could you DM us your console OS version so our Xbox engineering team can check? /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-157",
+    "incoming_tweet": "How do I link Spotify to my Discord profile so friends can see what song I am listening to?",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Discord connection setup guide.",
+    "historical_reference_reply": "Hey! Open Discord Settings -> Connections -> click the Spotify icon, log in to your Spotify account, and toggle 'Display Spotify as your status' /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-158",
+    "incoming_tweet": "Spotify Connect completely broke for my entire smart home setup after your server maintenance yesterday.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Multi-device backend service degradation report.",
+    "historical_reference_reply": "Hey! We want to check if there is an active service disruption affecting your region. Please DM us your postal code and ISP so we can investigate with our ops team /SC",
+    "requires_dm": true,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-159",
+    "incoming_tweet": "Can I use Siri voice commands to play Spotify playlists on my HomePod mini?",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Siri and HomePod Spotify integration instructions.",
+    "historical_reference_reply": "Yes! Update your HomePod and say 'Hey Siri, play my Discover Weekly on Spotify'. You can also set Spotify as default in the Home app /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-160",
+    "incoming_tweet": "The Spotify app in my Tesla Model 3 refuses to load and says 'Loading error'.",
+    "gold_intent": "DEVICE_CONNECTIVITY",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Tesla infotainment screen reboot.",
+    "historical_reference_reply": "Hey! A quick scroll-wheel reboot of your Tesla touchscreen usually resolves media player glitches: hold both steering wheel scroll wheels until the screen restarts! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-161",
+    "incoming_tweet": "I accidentally deleted my favorite workout playlist that took me 3 years to build. Can I get it back?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Self-service playlist recovery tool on Spotify web account.",
+    "historical_reference_reply": "Do not worry! You can restore deleted playlists. Log into https://spotify.com/account on a browser and click 'Recover playlists' on the left menu, then hit Restore /SC",
+    "requires_dm": false,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-162",
+    "incoming_tweet": "All my saved songs and playlists disappeared after I updated the app today!",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Commonly caused by logging into an alternate or secondary account after update.",
+    "historical_reference_reply": "Hey! Often after an update, a secondary account (via Facebook, Apple, or different email) gets logged in by mistake. Check your username at https://spotify.com/account /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-163",
+    "incoming_tweet": "How do I sync local MP3 files from my computer to my iPhone Spotify library?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard local files Wi-Fi sync procedure.",
+    "historical_reference_reply": "Hey! Make sure your computer and phone are on the exact same Wi-Fi. Enable 'Local files' in desktop settings, add the songs to a playlist, and toggle download on your phone /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-164",
+    "incoming_tweet": "Why did Spotify remove the album 'Blonde' by Frank Ocean from my library?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Catalog release update or region rights availability.",
+    "historical_reference_reply": "Hey! Albums can occasionally be re-uploaded by labels under new metadata or copyright terms. Try searching for the album again in Search to re-add the active version /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-165",
+    "incoming_tweet": "A collaborative playlist I made with my best friend has been hijacked and all songs were replaced by spam links.",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Vandalized collaborative playlist requiring playlist revision history rollback by support.",
+    "historical_reference_reply": "Hey! We can help roll back your collaborative playlist to its previous state. Please DM us the playlist link and your account username so our team can restore it /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-166",
+    "incoming_tweet": "How do I make my Spotify playlist public so my friends can find it in search?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Playlist privacy settings guide.",
+    "historical_reference_reply": "Hey! Open the playlist, tap the three dots menu, and select 'Make Public'. It will then be visible on your profile and in public search results /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-167",
+    "incoming_tweet": "Is there a limit on how many songs I can save in my Liked Songs library?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Liked songs library capacity policy (unlimited songs since 2020 update).",
+    "historical_reference_reply": "Great news: there is no longer any limit on Liked Songs! You can save as many songs as your heart desires /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-168",
+    "incoming_tweet": "My Spotify Wrapped 2023 is missing from my app. How do I access it?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Wrapped access link guidance.",
+    "historical_reference_reply": "Hey! You can access your Wrapped summary by visiting https://spotify.com/wrapped on your mobile browser or searching 'Wrapped' in the Spotify search bar /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-169",
+    "incoming_tweet": "A stranger somehow gained editor access to my secret private playlist without an invite link!",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Potential security flaw or uninvited collaborator access requiring permission audit.",
+    "historical_reference_reply": "Hey! That sounds like an unexpected privacy issue. Please DM us the link to the playlist and your account username so we can inspect its permissions backstage /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-170",
+    "incoming_tweet": "Can I change the cover photo of my playlist on the mobile app?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Custom playlist artwork upload guide.",
+    "historical_reference_reply": "Yes! Open your playlist in the mobile app, tap the three dots menu, tap 'Edit playlist', and tap 'Change Image' to choose any photo from your camera roll /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-171",
+    "incoming_tweet": "Why did Spotify merge two completely different artists with the same name into one artist page?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Metadata catalog separation issue requiring Spotify for Artists catalog curation ticket.",
+    "historical_reference_reply": "Hey! Artist metadata merges are handled by our catalog metadata team. Please DM us the artist page link and the tracks that belong to the other artist /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-172",
+    "incoming_tweet": "How do I recover a playlist that was deleted more than 90 days ago?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Past 90-day recovery period requiring database archive search.",
+    "historical_reference_reply": "Hey! Playlists deleted beyond 90 days don't show on the self-serve recovery page. Drop us a DM with the exact playlist name and your username; we will check our archives /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-173",
+    "incoming_tweet": "Can I sort my Liked Songs by artist alphabetically on iOS?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Playlist sorting and filtering controls in the mobile app.",
+    "historical_reference_reply": "Yes! Go to Liked Songs, swipe down slightly to reveal the top search and filter bar, tap 'Filters' or 'Sort', and choose 'Artist' /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-174",
+    "incoming_tweet": "Why are certain songs from my custom playlist missing when I share the link with a friend in Canada?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Cross-border track availability differences.",
+    "historical_reference_reply": "Hey! Music catalog availability varies by country due to label licensing agreements. If a track isn't licensed in Canada, it won't appear for your friend /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-175",
+    "incoming_tweet": "How do I transfer my playlists from my old Spotify account to my new one?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Playlist migration guide via public links or profile follow.",
+    "historical_reference_reply": "Hey! Make your playlists public on the old account, search for the old account profile on your new account, open the playlists, and tap 'Save' to your library /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-176",
+    "incoming_tweet": "Someone copied my entire curated playlist name and description and is impersonating my brand.",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Trademark and copyright reporting portal.",
+    "historical_reference_reply": "Hey! You can report trademark or impersonation concerns using our official Notice form at https://www.spotify.com/legal/infringement-form/ /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-177",
+    "incoming_tweet": "Can I pin my favorite playlists to the top of Your Library?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Library pinning feature guide.",
+    "historical_reference_reply": "Yes! In Your Library, swipe right on the playlist you want to pin and tap the pin icon (up to 4 pinned items allowed) /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-178",
+    "incoming_tweet": "I lost 10 years of carefully curated playlists after a billing lapse. This is devastating. Can you please help me recover them?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "High emotional distress / potential accidental profile wipe requiring agent assistance.",
+    "historical_reference_reply": "We completely understand how precious 10 years of music is. Please DM us your account username right away so our support team can locate your library records /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "sarcasm_churn",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-179",
+    "incoming_tweet": "Why did the playlist folder I created on desktop disappear on mobile?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Playlist folder view in mobile library.",
+    "historical_reference_reply": "Hey! In the mobile app, tap 'Your Library', tap the search icon or filter by 'Playlists', and your folders will appear at the top of the list /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-180",
+    "incoming_tweet": "Can two people contribute to a playlist without using Spotify Jam?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Collaborative playlist creation guide.",
+    "historical_reference_reply": "Yes! Open the playlist, tap the user icon with a plus sign ('Invite collaborators') to share a collaborative invite link with your friends /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-181",
+    "incoming_tweet": "My local audio files are showing in desktop but won't play even on the computer.",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Local file path relocation or DRM-protected AAC check.",
+    "historical_reference_reply": "Hey! If you moved the audio files to a different folder on your computer, Spotify can't find them. Re-add the folder in Spotify Desktop Settings -> Local Files /SC",
+    "requires_dm": false,
+    "customer_sentiment": "neutral",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-182",
+    "incoming_tweet": "How do I hide a specific song from playing in an editorial playlist?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Hide song feature guide.",
+    "historical_reference_reply": "Hey! On mobile, tap the three dots next to the song title in the playlist and select 'Hide this song'. Spotify will skip it when that playlist plays /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 4,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-183",
+    "incoming_tweet": "All my playlists have been renamed to 'Hacked by Anonymous' and all songs were removed!",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Vandalized library following account compromise; emergency restoration required.",
+    "historical_reference_reply": "Hey! We are on it. Please DM us your account username immediately so our security team can restore your original playlists from backups /SC",
+    "requires_dm": true,
+    "customer_sentiment": "urgent",
+    "is_edge_case": true,
+    "edge_case_type": "pii_financial",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-184",
+    "incoming_tweet": "Can I create smart dynamic playlists in Spotify based on rules like iTunes has?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Feature limitation explanation: Spotify doesn't have native dynamic smart playlists.",
+    "historical_reference_reply": "Hey! While Spotify doesn't have native rule-based smart playlists like iTunes, check out our AI-curated playlists like Discover Weekly and Daylist! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-185",
+    "incoming_tweet": "Where do I find all the podcast episodes I have marked as saved?",
+    "gold_intent": "LIBRARY_CONTENT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Podcast episodes library tab guide.",
+    "historical_reference_reply": "Hey! In Your Library, tap the 'Podcasts' filter pill at the top, then open 'Your Episodes' to see all your saved episodes /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-186",
+    "incoming_tweet": "Please bring back the heart button for liking songs! The new plus button is so confusing.",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Product feedback routing to community forum.",
+    "historical_reference_reply": "Thanks for sharing your thoughts with us! We are always tuning the app interface based on feedback. You can join the discussion on our Community at https://community.spotify.com /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-187",
+    "incoming_tweet": "I really love the Spotify Daylist feature, it nails my weird music moods every single day!",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Positive brand compliment acknowledgment.",
+    "historical_reference_reply": "That makes our day to hear! So glad Daylist is hitting the mark for your soundtrack. Enjoy the music! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-188",
+    "incoming_tweet": "Will Spotify ever support lyrics translation into different languages? That would be amazing.",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Feature request guidance to Spotify Community Idea Exchange.",
+    "historical_reference_reply": "We love that idea! You can submit and vote on feature ideas directly on the Spotify Community Idea Exchange: https://community.spotify.com. Our product teams review them! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-189",
+    "incoming_tweet": "The new desktop UI update is so cluttered and unintuitive. Who approved this design?!",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "UI critique feedback acknowledging customer sentiment without escalation.",
+    "historical_reference_reply": "We hear you and appreciate the honest feedback. Our design team continuously tests updates; feel free to add your suggestions on https://community.spotify.com /SC",
+    "requires_dm": false,
+    "customer_sentiment": "frustrated",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-190",
+    "incoming_tweet": "Shoutout to Spotify customer support for always having great taste in music playlists!",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Warm social engagement and appreciation.",
+    "historical_reference_reply": "Aww, thank you so much! That means a lot to our team. Keep rocking! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-191",
+    "incoming_tweet": "Why can't we search for songs by humming into the app like Google can?",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Feature suggestion routing.",
+    "historical_reference_reply": "Hum to search would be pretty awesome! Drop that idea on the Spotify Community Idea Exchange so fellow listeners can upvote it /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-192",
+    "incoming_tweet": "Spotify is literally the only subscription service I never complain about paying for. 10/10 app.",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Customer praise acknowledgment.",
+    "historical_reference_reply": "Thank you so much for the love and loyalty! We are thrilled to be the soundtrack to your days /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-193",
+    "incoming_tweet": "Can you please add a dark mode toggle to the desktop app? Wait, it is already dark, can we get a light mode?",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Design inquiry regarding light/dark themes.",
+    "historical_reference_reply": "Spotify is designed in dark theme to keep the visual focus on album artwork! You can share your thoughts on a light mode option at https://community.spotify.com /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-194",
+    "incoming_tweet": "Whoever curated the 'Pollacheck & Friends' indie playlist deserves a massive raise today.",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Compliment for editorial curation team.",
+    "historical_reference_reply": "We will make sure our editorial music team hears this compliment! Glad you are loving the playlist /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-195",
+    "incoming_tweet": "Are you guys real people or AI bots answering these tweets?",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Human support persona clarification.",
+    "historical_reference_reply": "Real human music lovers right here behind the keyboard! How can we help you out today? /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-196",
+    "incoming_tweet": "Can Spotify make an Apple Watch complication that shows the currently playing song title?",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "WatchOS complication feature request.",
+    "historical_reference_reply": "That is a great suggestion for the watch app! Head over to https://community.spotify.com to add your vote to that idea on the exchange /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-197",
+    "incoming_tweet": "I love Spotify Wrapped so much every December. Can you guys do a mid-year Wrapped in June too?",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Product campaign feedback.",
+    "historical_reference_reply": "We love Wrapped season too! In the meantime, check out your monthly listening stats and Daylist for ongoing insights into your groove /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-198",
+    "incoming_tweet": "Thank you for adding DJ X, it is surprisingly fun when I don't know what to listen to.",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "AI DJ feature praise.",
+    "historical_reference_reply": "DJ X says thanks! So happy you are enjoying having your personal AI DJ in your pocket /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-199",
+    "incoming_tweet": "Is there any way to change the app icon back to the vintage neon green icon?",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Custom app icon inquiry.",
+    "historical_reference_reply": "Currently, custom app icons are not supported in the app settings, but we appreciate your nostalgia for the classic icon! /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  },
+  {
+    "id": "GOLD-200",
+    "incoming_tweet": "Happy Friday to the hardest working customer support team on Twitter!",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Positive social greeting.",
+    "historical_reference_reply": "Happy Friday to you too! Have a fantastic weekend filled with good vibes and great music /SC",
+    "requires_dm": false,
+    "customer_sentiment": "curious",
+    "is_edge_case": false,
+    "edge_case_type": "standard",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "brand_voice": 5,
+      "escalation_correctness": 5
+    }
+  }
+]
